@@ -24,3 +24,4 @@ Various config, .*rc and lists of packages in my current setup.
 - move the aesthetics stuff to the aesthetics folder
 - re-write the arch script
 - make a script that auto-does all this for me. and commits it here too???
+- cant add .vim/ directory because the plugins all have .git/ directories. will see if these are necessary
