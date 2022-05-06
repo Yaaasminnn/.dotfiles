@@ -16,3 +16,11 @@ Various config, .*rc and lists of packages in my current setup.
 - .icons/
 - wallpaper
 - arch_install_script.sh
+
+## todo:
+- add node and ruby rc's
+- fix up the vim stuff
+- keep track of all packages. shouldnt be too hard; just a command to list all packages and echo to a file
+- move the aesthetics stuff to the aesthetics folder
+- re-write the arch script
+- make a script that auto-does all this for me. and commits it here too???
