@@ -68,4 +68,4 @@ cd packages
 ```
 
 ## installing for yourself
-I will need to rework the arch install script. for now though, there is a dedicated repository i have, although out of date: https://github.com/MonEmperor/linux-install
+I will need to rework the arch install script. for now though, there is some code, although out of date.
