@@ -1,0 +1,17 @@
+EasySSH	com.github.muriloventuroso.easyssh	1.7.8	stable	system
+Popsicle	com.system76.Popsicle	1.3.0	stable	system
+GitHub Desktop	io.github.shiftey.Desktop	3.0.0-linux2	stable	system
+Airshipper	net.veloren.airshipper	0.7.0	stable	system
+Citra	org.citra_emu.citra	nightly-1769	stable	system
+DeSmuME	org.desmume.DeSmuME	0.9.11	stable	system
+Freedesktop Platform	org.freedesktop.Platform	20.08.19	20.08	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.14	21.08	system
+Mesa	org.freedesktop.Platform.GL.default	21.1.8	20.08	system
+Mesa	org.freedesktop.Platform.GL.default	21.3.8	21.08	system
+nvidia-515-48-07	org.freedesktop.Platform.GL.nvidia-515-48-07		1.4	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
+GNOME Application Platform version 41	org.gnome.Platform		41	system
+KDE Application Platform	org.kde.Platform		5.15-21.08	system
+Haruna Video Player	org.kde.haruna	0.8.0	stable	system
+ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.1.0	stable	system
+yuzu	org.yuzu_emu.yuzu		stable	system

@@ -1,0 +1,119 @@
+[Application settings for code-oss]
+Description=Application settings for code-oss
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=3
+wmclass=code-oss
+wmclassmatch=1
+
+[Application settings for discord]
+Description=Application settings for discord
+clientmachine=localhost
+desktops=\\0
+desktopsrule=2
+wmclass=discord
+wmclassmatch=1
+
+[Application settings for ferdi]
+Description=Application settings for ferdi
+clientmachine=localhost
+desktops=91b1b6d2-859b-4bc1-b72b-a628d7a723bc
+desktopsrule=2
+maximizehoriz=true
+maximizehorizrule=2
+maximizevert=true
+maximizevertrule=2
+screenrule=2
+wmclass=ferdi
+wmclassmatch=1
+
+[Application settings for github desktop]
+Description=Application settings for github desktop
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=2
+wmclass=github desktop
+wmclassmatch=1
+
+[Application settings for jetbrains-clion]
+Description=Application settings for jetbrains-clion
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=2
+wmclass=jetbrains-clion
+wmclassmatch=1
+
+[Application settings for jetbrains-datagrip]
+Description=Application settings for jetbrains-datagrip
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=2
+wmclass=jetbrains-datagrip
+wmclassmatch=1
+
+[Application settings for jetbrains-goland]
+Description=Application settings for jetbrains-goland
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=2
+wmclass=jetbrains-goland
+wmclassmatch=1
+
+[Application settings for jetbrains-pycharm]
+Description=Application settings for jetbrains-pycharm
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=2
+wmclass=jetbrains-pycharm
+wmclassmatch=1
+
+[Application settings for jetbrains-webstorm]
+Description=Application settings for jetbrains-webstorm
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=2
+wmclass=jetbrains-webstorm
+wmclassmatch=1
+
+[Application settings for minecraft launcher]
+Description=Application settings for minecraft launcher
+clientmachine=localhost
+desktops=0b95ec5a-5f0a-4d3e-b0f0-a2d1835b177b
+desktopsrule=2
+wmclass=minecraft-launcher minecraft launcher
+wmclasscomplete=true
+wmclassmatch=1
+
+[Application settings for minecraft* 1.18.1]
+Description=Application settings for minecraft* 1.18.1
+clientmachine=localhost
+desktops=0b95ec5a-5f0a-4d3e-b0f0-a2d1835b177b
+desktopsrule=2
+wmclass=minecraft* 1.18.1
+wmclassmatch=1
+
+[Application settings for postman]
+Description=Application settings for postman
+clientmachine=localhost
+desktops=be6cc4f8-b4f8-40c0-a980-74d6fde1cfb6
+desktopsrule=2
+wmclass=postman
+wmclassmatch=1
+
+[Application settings for slack]
+Description=Application settings for slack
+clientmachine=localhost
+desktops=91b1b6d2-859b-4bc1-b72b-a628d7a723bc
+desktopsrule=2
+wmclass=slack
+wmclassmatch=1
+
+[Application settings for virt-manager]
+Description=Application settings for virt-manager
+clientmachine=localhost
+desktops=3a837860-1d33-42fd-a5ad-922ab863eb9d
+desktopsrule=2
+maximizehoriz=true
+maximizevert=true
+wmclass=virt-manager
+wmclassmatch=1
