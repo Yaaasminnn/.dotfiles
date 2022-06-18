@@ -4,10 +4,10 @@ Various config, .*rc and lists of packages in my current setup.
 
 ## setup
 neofetch:
-![neofetch](gallery/neofetch.png)
+![neofetch](.gallery/neofetch.png)
 
 demo:
-![demo](gallery/demo.gif)
+![demo](.gallery/demo.gif)
 
 
 ## included files/folders:
