@@ -10,16 +10,18 @@ source ~/.git-prompt.sh
 # determines if the user is root. (root!)
 if [[ $(id -u) -eq 0 ]];
 then
-  is_root='\033[31;1m(root) '
+  is_root='\[\033[31;1m\](root) '
 else
   is_root=''
 fi
 
-directory='\033[0;1m\w' # the actual directory. normally; ~
-git_parsed='\033[0;35;1m$(__git_ps1 " ⎇ [%s]")' # determines the git branch
-ending=' \033[0;36;1m\$\033[0m ' # the ending; $
+directory='\[\033[0;1m\]\w' # the actual directory. normally; ~
+git_parsed='\[\033[0;35;1m\]$(__git_ps1 " ⎇ [%s]")' # determines the git branch
+ending=' \[\033[0;36;1m\]\$\[\033[0m\] ' # the ending; $
+brace='\['
 
 PS1=$is_root$directory$git_parsed$ending
+PS2='\[\033[0;36;1m\] ->\[\033[0m\]'
 
 
 # some more ls aliases
@@ -43,11 +45,13 @@ alias bashtop="bpytop"
 alias reparse=". /home/loona/.bashrc"
 alias refresh="clear;cd"
 alias :q="exit"
+alias :Q="exit"
 
 # dev tools
 alias run="./executables/main"
 alias iplist="nmap -sn 192.68.0.0/24"
 alias findpi="iplist | grep pi"
+alias fix-audio="systemctl --user restart pipewire.service"
 
 # open apps shortcuts
 alias new="konsole -e vim&"

@@ -4,14 +4,25 @@ import os
 import sys
 import math
 import datetime
+from random import *
 
-
-# interactive prompt: (python) ~ $
-sys.ps1 = '\033[0;1m(\033[0;36;1mpy\033[0;33;1mthon\033[0;1m) ~ \033[0;36;1m$\033[0m '
+# interactive prompt: (python) >>>
+#\[\033[0;1m\]
+sys.ps1 = f'\033[0;1m(\033[0;36;1mpy\033[0;33;1mthon\033[0;1m) \033[0;36;1m>\033[0;33;1m>\033[0;36;1m>\033[0m '
 sys.ps2 = '\033[0;33;1m... \033[0m'
-
-# allows us to exit with "exit"
-exit.__class__.__repr__ = sys.exit
 
 # clears the screen
 def clear(): os.system("clear")
+
+# allows us to exit with "exit"
+exit.__class__.__repr__ = sys.exit
+# clear.__class__.__repr__ = clear()
+
+
+# list of all corresponding letters and numbers
+lettersToNums = {}
+numsToLetters = {}
+letter = 97 # starts with letter a
+for i in range(0,26):
+    lettersToNums[chr(letter+i)] = i
+    numsToLetters[str(i)] = chr(letter+i)
