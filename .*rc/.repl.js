@@ -6,7 +6,7 @@
 const repl = require('repl');
 
 // load all variables here
-const prompt = "[\033[0;33;1mjs\033[0;1m] \033[0;33;1m-> \033[0m" // prompt: [js] -> 
+const prompt = "\033[0;1m[\033[0;33;1mjs\033[0;1m] \033[0;33;1m-> \033[0m" // prompt: [js] -> 
 
 
 
