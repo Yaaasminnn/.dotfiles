@@ -1,3 +1,4 @@
+#!/bin/node
 // REPL.js file
 // Equivalent of a .*rc file, but for JS
 // loads all variables and methods etc
