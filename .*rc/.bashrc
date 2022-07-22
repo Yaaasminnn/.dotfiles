@@ -2,10 +2,21 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-source ~/.git-prompt.sh
+source ~/.git-prompt.sh # used for the git-prompt
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
+
+
+
+# THE PROMPT
+# below are all the components to the prompt.
+# the prompt consists of:
+#   is_root?     if the user is root
+#   directory    the current directory
+#   git_repo     the current git branch
+#   ending       '$'
 
 # determines if the user is root. (root!)
 if [[ $(id -u) -eq 0 ]];
@@ -20,11 +31,14 @@ git_parsed='\[\033[0;35;1m\]$(__git_ps1 " ⎇ [%s]")' # determines the git branc
 ending=' \[\033[0;36;1m\]\$\[\033[0m\] ' # the ending; $
 brace='\['
 
-PS1=$is_root$directory$git_parsed$ending
-PS2='\[\033[0;36;1m\] ->\[\033[0m\]'
+PS1=$is_root$directory$git_parsed$ending # the final prompt
+PS2='\[\033[0;36;1m\] ->\[\033[0m\]' # the 2nd prompt. '->'
 
 
-# some more ls aliases
+
+
+
+# some ls aliases
 alias ls="ls --color"
 alias ll='ls -lF'
 alias la='ls -A'
@@ -49,17 +63,17 @@ alias :Q="exit"
 
 # dev tools
 alias run="./executables/main"
-alias iplist="nmap -sn 192.68.0.0/24"
+alias iplist="nmap -sn 192.68.0.0/24" # make this a function
 alias findpi="iplist | grep pi"
 alias fix-audio="systemctl --user restart pipewire.service"
-
-# open apps shortcuts
-alias new="konsole -e vim&"
+alias node-repl="node .repl.js" # starts node repl
 
 # miscellaneous
-alias pkmnYellow='~/apps/Linux/php-terminal-gameboy-emulator/bin/php-gameboy ~/apps/Linux/php-terminal-gameboy-emulator/PkmnYellow.gbc'
 alias BetterDiscord="BetterDiscord --no-sandbox"
 
+
+
+# Exports
 export SDL_AUDIODRIVER='dsp'
 export EDITOR="/usr/bin/vim"
 
@@ -71,3 +85,5 @@ export NVM_DIR="/home/loona/.nvm"
 
 export PATH="/home/loona/.local/bin:$PATH"
 export PATH="/home/loona/programming/scripts:$PATH"
+export PATH="/home/loona/programming/scripts/calculators:$PATH"
+

@@ -1,0 +1,15 @@
+move to .dotfile/.*rc/ and make symlinks to ~
+bashrc
+pythonrc
+.gitprompt.sh
+
+.dotfile/config/cava -> .config/cava
+
+macros?
+
+packages are updated every update?
+  .bashrc command?
+
+
+.dotfiles/vim/ -> ~
+.vimrc
