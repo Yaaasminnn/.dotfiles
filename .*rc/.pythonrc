@@ -6,9 +6,8 @@ import math
 import datetime
 from random import *
 
-# interactive prompt: (python) >>>
-#\[\033[0;1m\]
-sys.ps1 = f'\033[0;1m(\033[0;36;1mpy\033[0;33;1mthon\033[0;1m) \033[0;36;1m>\033[0;33;1m>\033[0;36;1m>\033[0m '
+# interactive prompt: [py] -> 
+sys.ps1 = f'\033[0;1m[\033[0;36;1mp\033[0;33;1my\033[0;1m] \033[0;36;1m->\033[0m '
 sys.ps2 = '\033[0;33;1m... \033[0m'
 
 # clears the screen
@@ -16,8 +15,6 @@ def clear(): os.system("clear")
 
 # allows us to exit with "exit"
 exit.__class__.__repr__ = sys.exit
-# clear.__class__.__repr__ = clear()
-
 
 # list of all corresponding letters and numbers
 lettersToNums = {}
@@ -26,3 +23,22 @@ letter = 97 # starts with letter a
 for i in range(0,26):
     lettersToNums[chr(letter+i)] = i
     numsToLetters[str(i)] = chr(letter+i)
+
+ordersOfMagnitude = {
+    "10E-18": "A/Atto",
+    "10E-15": "f/Femto",
+    "10E-12": "p/Pico",
+    "10E-9": "n/Nano",
+    "10E-6": "µ/Micro",
+    "10E-3": "m/Milli",
+    "10E-2": "c/Centi",
+    "10E-1": "d/Deci",
+    "10E1": "D/da/Deka",
+    "10E2": "h/Hecto",
+    "10E3": "k/Kilo",
+    "10E6": "M/Mega",
+    "10E9": "G/Giga",
+    "10E12": "T/Terra",
+    "10E15": "P/Peta",
+    "10E18": "e/Exa"
+}
