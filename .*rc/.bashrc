@@ -66,7 +66,7 @@ alias run="./executables/main"
 alias iplist="nmap -sn 192.68.0.0/24" # make this a function
 alias findpi="iplist | grep pi"
 alias fix-audio="systemctl --user restart pipewire.service"
-alias node-repl="node .repl.js" # starts node repl
+alias repl="echo 'Node Version: $(node --version)' ;node ~/.repl.js" # starts node repl
 
 # miscellaneous
 alias BetterDiscord="BetterDiscord --no-sandbox"
