@@ -23,7 +23,7 @@ const onExit = () => { // exits the system
 
 // all the custom functions
 const state = {
-  exec(command) { // allows me to run shell commands in js
+  shell(command) { // allows me to run shell commands in js
     exec(command, (err, stdout, stderr) => {
       if (err) {
         console.error(err)
