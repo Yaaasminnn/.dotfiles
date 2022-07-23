@@ -13,6 +13,7 @@ demo:
 ## included files/folders:
 - .bashrc
 - .pythonrc
+- .repl.js (node.js rc)
 - .vimrc
 - .vim/
 - pacman_packages
