@@ -54,6 +54,7 @@ alias cd...="cd ..;cd .."
 alias cat="cat -n"
 alias slep='systemctl suspend'
 alias gn="/home/loona/programming/scripts/gn.sh"
+alias okbye="/home/loona/programming/scripts/gn.sh"
 alias kys="exit"
 alias bashtop="bpytop"
 alias reparse=". /home/loona/.bashrc"
