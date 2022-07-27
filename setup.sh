@@ -7,6 +7,9 @@
 #
 # does not download packages except for the ones needed to perform this script
 #
+# also sets all links
+#   to dotfiles
+#
 # todo:
 #   .*rc files
 #   .config
