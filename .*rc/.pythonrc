@@ -6,6 +6,10 @@ import math
 import datetime
 from random import *
 
+
+
+# TERMINAL UTILITIES AND SETTINGS
+
 # interactive prompt: [py] -> 
 sys.ps1 = f'\033[0;1m[\033[0;36;1mp\033[0;33;1my\033[0;1m] \033[0;36;1m->\033[0m '
 sys.ps2 = '\033[0;33;1m... \033[0m'
@@ -15,6 +19,11 @@ def clear(): os.system("clear")
 
 # allows us to exit with "exit"
 exit.__class__.__repr__ = sys.exit
+
+
+
+# CONVERSIONS AND REFERENCES
+# I sometimes use these when running calculations
 
 # list of all corresponding letters and numbers
 lettersToNums = {}
@@ -42,3 +51,35 @@ ordersOfMagnitude = {
     "10E15": "P/Peta",
     "10E18": "e/Exa"
 }
+
+
+
+# COMPUTATIONAL UTILITIES
+# hastens or simplifies calculations
+# Helpful since i often use a python shell as a calculator.
+# 
+# This dosent really include calculators, as i already have dedicated scripts for those
+# rather, this just quickens basic calculations in the python shell
+
+# returns exponential numbers such as 7E2
+# todo: make this a class? have it print the value as XEy
+def exp(num:float, E:int):
+    # Returns the exponent of a number
+    # It makes it a bit faster to use large numbers
+    # Ex: exp(num=7, E=2)
+    # >>> 7* 10**2
+    return num * 10**E
+
+# constants?
+# G
+# E
+# u0
+# etc
+# e
+
+# radian/degree conversions
+def toDeg(theta:float):
+    return (theta * 180) / math.pi
+
+def toRad(theta:float):
+    return (theta * math.pi) / 180
