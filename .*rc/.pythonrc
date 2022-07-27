@@ -78,6 +78,7 @@ def exp(num:float, E:int):
 # e
 
 # radian/degree conversions
+# does not work in some scenarios.
 def toDeg(theta:float):
     return (theta * 180) / math.pi
 
