@@ -20,3 +20,7 @@
 #   autokey macros
 #   scripts -> ~/programming/scripts/
 #   vim plugins install? need fonts
+#
+
+
+# clones https://github.com/qw3rtman/git-fire
