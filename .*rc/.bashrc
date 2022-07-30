@@ -28,7 +28,7 @@ fi
 
 directory='\[\033[0;1m\]\w' # the actual directory. normally; ~
 git_parsed='\[\033[0;35;1m\]$(__git_ps1 " ⎇ [%s]")' # determines the git branch
-ending=' \[\033[0;36;1m\]\$\[\033[0m\] ' # the ending; $
+ending=' \[\033[1;32;1m\]->\[\033[0m\] ' # the ending; $
 brace='\['
 
 PS1=$is_root$directory$git_parsed$ending # the final prompt
