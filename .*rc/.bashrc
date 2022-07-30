@@ -16,7 +16,17 @@ source ~/.git-prompt.sh # used for the git-prompt
 #   is_root?     if the user is root
 #   directory    the current directory
 #   git_repo     the current git branch
-#   ending       '$'
+#   ending       '->'
+
+lastExitCode(){ # changes prompt colour from green to red depending on if the last command was successful or not
+  if [[ $? == 0 || $? == 130 ]];
+  then
+    local colour='1;32;1m'
+  else
+    local colour='0;31;1m'
+  fi
+  echo "$colour"
+}
 
 # determines if the user is root. (root!)
 if [[ $(id -u) -eq 0 ]];
@@ -28,11 +38,10 @@ fi
 
 directory='\[\033[0;1m\]\w' # the actual directory. normally; ~
 git_parsed='\[\033[0;35;1m\]$(__git_ps1 " ⎇ [%s]")' # determines the git branch
-ending=' \[\033[1;32;1m\]->\[\033[0m\] ' # the ending; $
-brace='\['
+ending=' \[\033[$(lastExitCode)\]->\[\033[0m\] ' # the ending; $
 
 PS1=$is_root$directory$git_parsed$ending # the final prompt
-PS2='\[\033[0;36;1m\] ->\[\033[0m\]' # the 2nd prompt. '->'
+PS2='\[\033[$(lastExitCode)\]   -->\[\033[0m\]' # the 2nd prompt. '   -->'
 
 
 
