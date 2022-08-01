@@ -1,5 +1,5 @@
 # .dotfiles
-Various config, .*rc and lists of packages in my current setup.
+Various config, .*rc, scripts and lists of packages in my current setup.
 
 
 ## setup
