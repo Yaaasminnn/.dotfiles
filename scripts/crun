@@ -1,0 +1,33 @@
+#!/usr/bin/python3.10
+
+"""
+Compile/Run script for C++ in python.
+
+maybe extend functionality to other languages?
+"""
+
+import sys
+import os
+
+extensions = [
+    '.cpp',
+    '.c',
+    '.go',
+    '.java'
+]
+
+def remove_ext(file:str="main.cpp"): # returns the file name without the extension
+    return file[:-4]
+
+def compile(file:str="main.cpp"): # compiles the program and returns the executable name
+    compiled = os.system(f"g++ {file} -o {remove_ext(file)}")
+    if compiled !=0: sys.exit() # if the program did not compile, we dont try to run anything an exit
+    return remove_ext(file)
+
+def run(exec_file:str): # runs the executable
+    os.system(f"chmod +x {exec_file}")
+    os.system(f"./{exec_file}")
+
+
+#print(sys.argv[1])
+run(compile(sys.argv[1]))
