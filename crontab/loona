@@ -1,0 +1,4 @@
+30 00 * * * sh /home/loona/programming/scripts/journal_cleaner.sh
+00 00 * * * pacman -Q > /home/loona/.dotfiles/packages/pacman.txt
+00 00 * * * snap list > /home/loona/.dotfiles/packages/snap.txt
+00 00 * * * flatpak list --app /home/loona/.dotfiles/packages/flatpak.txt
