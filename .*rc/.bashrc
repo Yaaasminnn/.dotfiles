@@ -19,9 +19,13 @@ source ~/.git-prompt.sh # used for the git-prompt
 #   ending       '->'
 
 lastExitCode(){ # changes prompt colour from green to red depending on if the last command was successful or not
-  if [[ $? == 0 || $? == 130 ]]; # look at all exit codes
+  local code=$?
+  if [[ $code == 0 || $code == 130 ]]; # look at all exit codes(tabbing etc)
   then
     local colour='1;32;1m'
+  elif [[ $code == 148 ]];
+  then
+    local colour='0;36;1m'
   else
     local colour='0;31;1m'
   fi
@@ -78,8 +82,14 @@ alias findpi="iplist | grep pi"
 alias fix-audio="systemctl --user restart pipewire.service"
 export EDITOR="/usr/bin/vim"
 
+# shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
 export PYTHONSTARTUP="/home/loona/.pythonrc" # loads python rc
+
+
+
+
+
 
 # miscellaneous
 alias BetterDiscord="BetterDiscord --no-sandbox"
