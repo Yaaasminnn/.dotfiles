@@ -92,7 +92,8 @@ export PYTHONSTARTUP="/home/loona/.pythonrc" # loads python rc
 
 
 # miscellaneous
-alias BetterDiscord="BetterDiscord --no-sandbox"
+alias BetterDiscord="BetterDiscord --no-sandbox" # runs the better discord installer
+alias kwin_fix="kwin_x11 --replace 1> /dev/null 2> /dev/null &" # occasionally kwin fucks. this fixes that
 
 # history
 HISTTIMEFORMAT="%y-%M-%D %t " # shows datetime when using "history"
