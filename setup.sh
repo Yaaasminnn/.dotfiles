@@ -69,7 +69,13 @@ ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
 
 
 
-# betterDiscord
+# discord
+
+wget https://discord.com/api/download?platform=linux&format=deb # downloads discord
+sudo dpkg -i download\?platform\=linux # installs discord
+
+
+#BetterDiscord
 wget https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage # installs
 sudo mv BetterDiscord-Linux.AppImage /usr/bin/BetterDiscord # moves to the right directory
 sudo chown /usr/bin/BetterDiscord $user:users # this could be an error. since the user may not be in users
@@ -80,13 +86,17 @@ mkdir -p /home/$user/.config/BetterDiscord/ # makes the BetterDiscord directory
 ln -s /home/$user/.dotfiles/BD/themes /home/$user/.config/BetterDiscord/themes
 ln -s /home/$user/.dotfiles/BD/plugins /home/$user/.config/BetterDiscord/plugins
 
+
+
 # clones https://github.com/qw3rtman/git-fire
 git clone https://github.com/qw3rtman/git-fire
 sudo mv git-fire/git-fire /usr/bin/git-fire
 rm -rf git-fire/
 
 
+
 # installs packages
+
 
 
 # sets crontab stuff
