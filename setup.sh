@@ -32,7 +32,7 @@ cp -r /home/$user/.dotfiles/gallery/wallpapers /home/$user/Pictures/
 
 # sets up Vim
 
-sudo apt install curl nodejs
+sudo apt install curl nodejs vim vim-gtk3
 
 # refreshes ~/.vim/
 rm -rf /home/$user/.vim/
