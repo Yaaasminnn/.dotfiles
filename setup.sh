@@ -26,13 +26,26 @@
 user=$(whoami)
 
 
+
 # makes directories
-mkdir -p ~/programming/scripts ~/programming/Work ~/programming/learning ~/programming/archives   # programming
+mkdir -p ~/programming/Work ~/programming/learning ~/programming/archives   # programming
 mkdir /home/$user/GIMP /home/$user/School # ~ 
 
 # moves wallpapers to the wallpapers location
 cp -r /home/$user/.dotfiles/gallery/wallpapers /home/$user/Pictures/
 
+
+
+# Links
+
+# removes existing copies of files so we can create links there
+rm /home/$user/.bashrc
+rm /home/$user/.gitconfig
+rm /home/$user/.git-prompt.sh
+rm /home/$user/.pythonrc
+rm /home/$user/.replrc
+rm /home/$user/.vimrc
+rm -r /home/$user/.vim/
 
 # makes links in ~
 ln -s /home/$user/.dotfiles/.\*rc/.bashrc /home/$user/.bashrc
@@ -45,6 +58,8 @@ ln -s /home/$user/.dotfiles/vim/.vim /home/$user/.vim/
 
 # makes links to ~/programming
 ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
+
+
 
 
 # clones https://github.com/qw3rtman/git-fire
