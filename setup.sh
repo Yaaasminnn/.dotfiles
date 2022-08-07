@@ -22,5 +22,39 @@
 #   vim plugins install? need fonts
 #
 
+# gets the username
+user=$(whoami)
+
+
+# makes directories
+mkdir -p ~/programming/scripts ~/programming/Work ~/programming/learning ~/programming/archives   # programming
+mkdir /home/$user/GIMP /home/$user/School # ~ 
+
+
+# installs node
+sudo pacman -Syu nodejs
+
+# moves wallpapers to the wallpapers location
+cp -r /home/$user/.dotfiles/gallery/wallpapers /home/$user/Pictures/
+
+
+# makes links in ~
+ln -s /home/$user/.dotfiles/.*rc/.bashrc /home/$user/.bashrc
+ln -s /home/$user/.dotfiles/.*rc/.gitconfig /home/$user/.gitconfig
+ln -s /home/$user/.dotfiles/.*rc/git-prompt.sh /home/$user/.git-prompt.sh
+ln -s /home/$user/.dotfiles/.*rc/.pythonrc  /home/$user/.pythonrc
+ln -s /home/$user/.dotfiles/.*rc/.replrc /home/$user/.replrc
+ln -s /home/$user/.dotfiles/vim/.vimrc /home/$user/.vimrc
+ln -s /home/$user/.dotfiles/vim/.vim /home/$user/.vim/
+
+# makes links to ~/programming
+ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
+
 
 # clones https://github.com/qw3rtman/git-fire
+
+
+# installs packages
+
+
+# sets crontab stuff
