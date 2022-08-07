@@ -39,11 +39,11 @@ cp -r /home/$user/.dotfiles/gallery/wallpapers /home/$user/Pictures/
 
 
 # makes links in ~
-ln -s /home/$user/.dotfiles/.*rc/.bashrc /home/$user/.bashrc
-ln -s /home/$user/.dotfiles/.*rc/.gitconfig /home/$user/.gitconfig
-ln -s /home/$user/.dotfiles/.*rc/git-prompt.sh /home/$user/.git-prompt.sh
-ln -s /home/$user/.dotfiles/.*rc/.pythonrc  /home/$user/.pythonrc
-ln -s /home/$user/.dotfiles/.*rc/.replrc /home/$user/.replrc
+ln -s /home/$user/.dotfiles/.\*rc/.bashrc /home/$user/.bashrc
+ln -s /home/$user/.dotfiles/.\*rc/.gitconfig /home/$user/.gitconfig
+ln -s /home/$user/.dotfiles/.\*rc/git-prompt.sh /home/$user/.git-prompt.sh
+ln -s /home/$user/.dotfiles/.\*rc/.pythonrc  /home/$user/.pythonrc
+ln -s /home/$user/.dotfiles/.\*rc/.replrc /home/$user/.replrc
 ln -s /home/$user/.dotfiles/vim/.vimrc /home/$user/.vimrc
 ln -s /home/$user/.dotfiles/vim/.vim /home/$user/.vim/
 
