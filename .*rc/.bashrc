@@ -4,6 +4,8 @@
 
 source ~/.git-prompt.sh # used for the git-prompt
 
+user=$(whoami)
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -66,11 +68,11 @@ alias cd...="cd ..;cd .."
 # general bash aliases
 alias cat="cat -n"
 alias slep='systemctl suspend'
-alias gn="/home/loona/programming/scripts/gn.sh"
-alias okbye="/home/loona/programming/scripts/gn.sh"
+alias gn="/home/$user/programming/scripts/gn.sh"
+alias okbye="/home/$user/programming/scripts/gn.sh"
 alias kys="exit"
 alias bashtop="bpytop"
-alias reparse=". /home/loona/.bashrc"
+alias reparse=". /home/$user/.bashrc"
 alias refresh="clear;cd"
 alias :q="exit"
 alias :Q="exit"
@@ -84,7 +86,7 @@ export EDITOR="/usr/bin/vim"
 
 # shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
-export PYTHONSTARTUP="/home/loona/.pythonrc" # loads python rc
+export PYTHONSTARTUP="/home/$user/.pythonrc" # loads python rc
 
 
 
@@ -105,13 +107,13 @@ LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:c
 export LS_COLORS
 
 
-export NVM_DIR="/home/loona/.nvm"
+export NVM_DIR="/home/$user/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # PATH variables
-export PATH="/home/loona/.local/bin:$PATH"
-export PATH="/home/loona/programming/scripts:$PATH"
-export PATH="/home/loona/programming/scripts/calculators:$PATH"
-export PATH="/home/loona/programming/scripts/speedtest:$PATH"
+export PATH="/home/$user/.local/bin:$PATH"
+export PATH="/home/$user/programming/scripts:$PATH"
+export PATH="/home/$user/programming/scripts/calculators:$PATH"
+export PATH="/home/$user/programming/scripts/speedtest:$PATH"
 
