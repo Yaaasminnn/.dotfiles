@@ -72,6 +72,7 @@ ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
 # betterDiscord
 wget https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage # installs
 sudo mv BetterDiscord-Linux.AppImage /usr/bin/BetterDiscord # moves to the right directory
+sudo chown /usr/bin/BetterDiscord $user:users # this could be an error. since the user may not be in users
 
 mkdir -p /home/$user/.config/BetterDiscord/ # makes the BetterDiscord directory
 
