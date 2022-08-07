@@ -81,6 +81,7 @@ ln -s /home/$user/.dotfiles/BD/plugins /home/$user/.config/BetterDiscord/plugins
 # clones https://github.com/qw3rtman/git-fire
 git clone https://github.com/qw3rtman/git-fire
 sudo mv git-fire/git-fire /usr/bin/git-fire
+rm -rf git-fire/
 
 
 # installs packages
