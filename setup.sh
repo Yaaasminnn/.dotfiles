@@ -45,8 +45,6 @@ rm -rf /home/$user/.vim/
 mkdir -p /home/$user/.vim/plugged
 
 # gets plug.vim
-# installs curl
-
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
