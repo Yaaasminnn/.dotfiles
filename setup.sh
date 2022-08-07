@@ -45,8 +45,13 @@ rm /home/$user/.git-prompt.sh
 rm /home/$user/.pythonrc
 rm /home/$user/.replrc
 rm /home/$user/.vimrc
+
+# sets up ~/.vim/
 rm -rf /home/$user/.vim/
-mkdir /home/$user/.vim/
+mkdir -p /home/$user/.vim/plugged
+# gets plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # makes links in ~
 ln -s /home/$user/.dotfiles/.\*rc/.bashrc /home/$user/.bashrc
