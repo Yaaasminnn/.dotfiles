@@ -4,23 +4,15 @@
 # Basically just makes all the appropriate directories, 
 # moves all the files and sets the perms,
 # and git clones or curl/wget's any remote files.
-#
-# does not download packages except for the ones needed to perform this script
-#
 # also sets all links
-#   to dotfiles
 #
 # todo:
-#   .*rc files
-#   .config
 #   autostart
-#   calculators -> ~/programming/scripts/calculators
 #   crontab
 #   kwin rules?
 #   autokey macros
-#   scripts -> ~/programming/scripts/
 #   vim plugins install? need fonts
-#
+#   install all the packages from the respective package managers
 
 # gets the username
 user=$(whoami)
@@ -75,8 +67,18 @@ ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
 
 
 
+# betterDiscord
+curl -fLo /usr/bin/BetterDiscord --create-dirs \ 
+  https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage
+
+mkdir -p /home/$user/.config/BetterDiscord/ # makes the BetterDiscord directory
+
+ln -s /home/$user/.dotfiles/BD/themes /home/$user/.config/BetterDiscord/themes
+ln -s /home/$user/.dotfiles/BD/plugins /home/$user/.config/BetterDiscord/plugins
 
 # clones https://github.com/qw3rtman/git-fire
+git clone https://github.com/qw3rtman/git-fire
+mv ~/git-fire/git-fire /usr/bin
 
 
 # installs packages
