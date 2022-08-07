@@ -71,7 +71,7 @@ ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
 
 # betterDiscord
 wget https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage # installs
-mv BetterDiscord-Linux.AppImage /usr/bin/BetterDiscord # moves to the right directory
+sudo mv BetterDiscord-Linux.AppImage /usr/bin/BetterDiscord # moves to the right directory
 
 mkdir -p /home/$user/.config/BetterDiscord/ # makes the BetterDiscord directory
 
@@ -80,7 +80,7 @@ ln -s /home/$user/.dotfiles/BD/plugins /home/$user/.config/BetterDiscord/plugins
 
 # clones https://github.com/qw3rtman/git-fire
 git clone https://github.com/qw3rtman/git-fire
-mv git-fire/git-fire /usr/bin/git-fire
+sudo mv git-fire/git-fire /usr/bin/git-fire
 
 
 # installs packages
