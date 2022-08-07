@@ -74,6 +74,11 @@ ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
 wget https://discord.com/api/download?platform=linux&format=deb # downloads discord
 sudo dpkg -i download\?platform\=linux # installs discord
 
+# install and setup fuse
+sudo modprobe -v fuse
+sudo addgroup fuse
+sudo adduser $user fuse
+sudo apt install libfuse2
 
 #BetterDiscord
 wget https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage # installs
