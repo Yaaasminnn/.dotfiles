@@ -45,7 +45,8 @@ rm /home/$user/.git-prompt.sh
 rm /home/$user/.pythonrc
 rm /home/$user/.replrc
 rm /home/$user/.vimrc
-rm -rf /home/$user/.vim/; rm /home/$user/.vim
+rm -rf /home/$user/.vim/
+mkdir /home/$user/.vim/
 
 # makes links in ~
 ln -s /home/$user/.dotfiles/.\*rc/.bashrc /home/$user/.bashrc
@@ -54,7 +55,7 @@ ln -s /home/$user/.dotfiles/.\*rc/.git-prompt.sh /home/$user/.git-prompt.sh
 ln -s /home/$user/.dotfiles/.\*rc/.pythonrc  /home/$user/.pythonrc
 ln -s /home/$user/.dotfiles/.\*rc/.replrc /home/$user/.replrc
 ln -s /home/$user/.dotfiles/vim/.vimrc /home/$user/.vimrc
-ln -s /home/$user/.dotfiles/vim/.vim /home/$user/
+ln -s /home/$user/.dotfiles/vim/plugins.vim /home/$user/.vim/plugins.vim
 
 # makes links to ~/programming
 ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
