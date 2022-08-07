@@ -2,9 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-source ~/.git-prompt.sh # used for the git-prompt
-
 user=$(whoami)
+
+source /home/$user/.git-prompt.sh # used for the git-prompt
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
