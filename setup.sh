@@ -30,10 +30,6 @@ user=$(whoami)
 mkdir -p ~/programming/scripts ~/programming/Work ~/programming/learning ~/programming/archives   # programming
 mkdir /home/$user/GIMP /home/$user/School # ~ 
 
-
-# installs node
-sudo pacman -Syu nodejs
-
 # moves wallpapers to the wallpapers location
 cp -r /home/$user/.dotfiles/gallery/wallpapers /home/$user/Pictures/
 
