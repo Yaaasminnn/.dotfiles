@@ -90,6 +90,7 @@ endif
 
 "loads the plugins file
 so ~/.vim/plugins.vim
+PlugInstall
 
 let g:coc_global_extensions = [ 'coc-tsserver' ]
 let g:airline_powerline_fonts = 1
