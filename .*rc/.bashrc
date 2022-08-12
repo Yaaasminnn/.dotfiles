@@ -3,6 +3,7 @@
 # for examples
 
 user=$(whoami)
+hostname=$(hostname)
 
 source /home/$user/.git-prompt.sh # used for the git-prompt
 
@@ -42,11 +43,11 @@ else
   is_root=''
 fi
 
-# determines the hostname     [💻]
+# determines the hostname      
 # this helps me keep track of which desktop im on
 if [[ $hostname == "laptop" ]];
 then
-  laptop="[💻]"
+  laptop="\[\033[0;36;1m\] "
 else
   laptop=""
 fi
