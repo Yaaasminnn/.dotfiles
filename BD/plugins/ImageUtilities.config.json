@@ -1,8 +1,5 @@
 {
 	"all": {
-		"amounts": {
-			"hoverDelay": 0
-		},
 		"detailsSettings": {
 			"footnote": true,
 			"tooltip": false,
@@ -23,7 +20,7 @@
 			"Yandex": true
 		},
 		"general": {
-			"nsfwMode": true
+			"nsfwMode": false
 		},
 		"places": {
 			"userAvatars": true,
@@ -35,14 +32,6 @@
 			"messages": "NONE",
 			"imageViewer": "NONE"
 		},
-		"resizeSettings": {
-			"messages": false,
-			"imageViewer": false
-		},
-		"scaleSettings": {
-			"messages": "NONE",
-			"imageViewer": "NONE"
-		},
 		"viewerSettings": {
 			"zoomMode": true,
 			"galleryMode": true,
@@ -51,8 +40,8 @@
 			"saveImage": true
 		},
 		"zoomSettings": {
-			"lensSize": 801,
-			"pixelMode": false,
+			"lensSize": 700,
+			"pixelMode": true,
 			"zoomLevel": 2
 		}
 	}

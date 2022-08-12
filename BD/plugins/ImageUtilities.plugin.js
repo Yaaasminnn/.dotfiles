@@ -2,7 +2,7 @@
  * @name ImageUtilities
  * @author DevilBro
  * @authorId 278543574059057154
- * @version 4.7.9
+ * @version 4.8.0
  * @description Adds several Utilities for Images/Videos (Gallery, Download, Reverse Search, Zoom, Copy, etc.)
  * @invite Jx3TjNS
  * @donate https://www.paypal.me/MircoWittrien
@@ -17,7 +17,7 @@ module.exports = (_ => {
 		"info": {
 			"name": "ImageUtilities",
 			"author": "DevilBro",
-			"version": "4.7.9",
+			"version": "4.8.0",
 			"description": "Adds several Utilities for Images/Videos (Gallery, Download, Reverse Search, Zoom, Copy, etc.)"
 		}
 	};
@@ -261,6 +261,7 @@ module.exports = (_ => {
 					},
 					after: {
 						ImageModal: ["render", "componentDidMount", "componentWillUnmount"],
+						ModalCarousel: "render",
 						LazyImage: ["componentDidMount", "componentDidUpdate"],
 						LazyImageZoomable: "render",
 						Spoiler: "render",
@@ -351,9 +352,6 @@ module.exports = (_ => {
 					${BDFDB.dotCN._imageutilitiessibling}:hover ${BDFDB.dotCN._imageutilitiesswitchicon} {
 						background: rgba(0, 0, 0, 0.5);
 					}
-					${BDFDB.dotCNS._imageutilitiesgallery + BDFDB.dotCN.imagemodalnavbutton} {
-						display: none;
-					}
 					${BDFDB.dotCN._imageutilitiesdetailswrapper} {
 						position: fixed;
 						bottom: 10px;
@@ -418,6 +416,9 @@ module.exports = (_ => {
 									}),
 									(!altText || altText.length < 50) && details
 								]
+							});
+							e.returnValue.props.children = BDFDB.ReactUtils.createElement("div", {
+								children: e.returnValue.props.children
 							});
 						}
 					}
@@ -942,7 +943,13 @@ module.exports = (_ => {
 					BDFDB.TimeUtils.clear(viewedImageTimeout);
 					
 					let modal = BDFDB.DOMUtils.getParent(BDFDB.dotCN.modal, e.node);
-					if (modal) modal.className = BDFDB.DOMUtils.formatClassName(modal.className, this.settings.viewerSettings.galleryMode && BDFDB.disCN._imageutilitiesgallery, this.settings.viewerSettings.details && BDFDB.disCN._imageutilitiesdetailsadded);
+					if (modal) {
+						modal.className = BDFDB.DOMUtils.formatClassName(modal.className, this.settings.viewerSettings.galleryMode && BDFDB.disCN._imageutilitiesgallery, this.settings.viewerSettings.details && BDFDB.disCN._imageutilitiesdetailsadded);
+						if (this.settings.viewerSettings.zoomMode) {
+							BDFDB.DOMUtils.addClass(modal, BDFDB.disCN.imagemodal);
+							BDFDB.DOMUtils.removeClass(modal, BDFDB.disCN.modalcarouselmodal, BDFDB.disCN.modalcarouselmodalzoomed);
+						}
+					}
 				}
 				else if (e.methodname == "componentWillUnmount") {
 					firstViewedImage = null;
@@ -1164,6 +1171,13 @@ module.exports = (_ => {
 				}
 			}
 			
+			processModalCarousel (e) {
+				if (this.settings.viewerSettings.zoomMode) {
+					let [children, index] = BDFDB.ReactUtils.findParent(e.returnvalue, {name: "ImageModal"});
+					if (index > -1) return children[index];
+				}
+			}
+			
 			processLazyImage (e) {
 				if (e.node) {
 					if (e.instance.props.resized) {
@@ -1177,6 +1191,7 @@ module.exports = (_ => {
 					if (e.methodname == "componentDidMount") {
 						let isVideo = (typeof e.instance.props.children == "function" && e.instance.props.children(Object.assign({}, e.instance.props, {size: e.instance.props})) || {type: {}}).type.displayName == "Video";
 						if (this.settings.viewerSettings.zoomMode && !isVideo && !BDFDB.DOMUtils.containsClass(e.node.parentElement, BDFDB.disCN._imageutilitiessibling) && BDFDB.ReactUtils.findOwner(BDFDB.ReactUtils.getInstance(e.node), {name: "ImageModal", up: true})) {
+							e.node.style.setProperty("cursor", "zoom-in");
 							e.node.addEventListener("mousedown", event => {
 								if (event.which != 1) return;
 								BDFDB.ListenerUtils.stopEvent(event);
@@ -1220,7 +1235,8 @@ module.exports = (_ => {
 									event = event2;
 									lens.update();
 								};
-								let releasing = _ => {
+								let releasing = event2 => {
+									BDFDB.ListenerUtils.stopEvent(event2);
 									e.node.style.removeProperty("pointer-events");
 									this.cleanupListeners("Zoom");
 									document.removeEventListener("mousemove", dragging);
@@ -1395,6 +1411,7 @@ module.exports = (_ => {
 				if (!message) return;
 				firstViewedImage = {messageId: message.id, channelId: message.channel_id, proxy_url: image.src};
 				viewedImage = firstViewedImage;
+				if (cachedImages) cachedImages.index = this.getImageIndex(cachedImages.all, viewedImage);
 				viewedImageTimeout = BDFDB.TimeUtils.timeout(_ => {
 					firstViewedImage = null;
 					viewedImage = null;

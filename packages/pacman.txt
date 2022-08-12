@@ -1,5 +1,9 @@
 a52dec 0.7.4-11
 aalib 1.4rc5-14
+aarch64-linux-gnu-binutils 2.38-1
+aarch64-linux-gnu-gcc 12.1.0-1
+aarch64-linux-gnu-glibc 2.35-1
+aarch64-linux-gnu-linux-api-headers 5.18-1
 abseil-cpp 20220623.0-1
 accounts-qml-module 0.7-4
 accountsservice 22.08.8-2
@@ -58,7 +62,7 @@ boost-libs 1.79.0-1
 bottles 2022.3.28-1
 box2d 2.4.1-1
 bpytop 1.0.68-1
-brave-bin 1:1.36.109-1
+brave-bin 1:1.42.88-1
 breeze 5.25.4-1
 breeze-gtk 5.25.4-1
 breeze-icons 5.96.0-1
@@ -111,7 +115,7 @@ debtap 3.4.2-1
 desktop-file-utils 0.26-2
 device-mapper 2.03.16-1
 diffutils 3.8-1
-discord 0.0.18-1
+discord 0.0.19-1
 discount 2.2.7.b-1
 discover 5.25.4-1
 djvulibre 3.5.28-3
@@ -539,6 +543,8 @@ libbs2b 3.1.0-8
 libbsd 0.11.6-2
 libburn 1.5.4-1
 libbytesize 2.7-1
+libc++ 14.0.6-1
+libc++abi 14.0.6-1
 libcaca 0.99.beta20-1
 libcacard 2.7.0-2
 libcanberra 1:0.30+r2+gc0620e4-1
