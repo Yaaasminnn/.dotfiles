@@ -42,11 +42,21 @@ else
   is_root=''
 fi
 
+# determines the hostname     [💻]
+# this helps me keep track of which desktop im on
+if [[ $hostname == "laptop" ]];
+then
+  laptop="[💻]"
+else
+  laptop=""
+fi
+
+
 directory='\[\033[0;1m\]\w' # the actual directory. normally; ~
 git_parsed='\[\033[0;35;1m\]$(__git_ps1 " ⎇ [%s]")' # determines the git branch
 ending=' \[\033[$(lastExitCode)\]->\[\033[0m\] ' # the ending; $
 
-PS1=$is_root$directory$git_parsed$ending # the final prompt
+PS1=$is_root$laptop$directory$git_parsed$ending # the final prompt
 PS2='\[\033[$(lastExitCode)\]   -->\[\033[0m\]' # the 2nd prompt. '   -->'
 
 
