@@ -14,7 +14,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'yggdroot/indentline'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'puremourning/vimspector'
-Plug 'wfxr/minimap.vim'
+"Plug 'wfxr/minimap.vim'
 Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
 

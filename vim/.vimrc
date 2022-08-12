@@ -23,7 +23,7 @@ set wrap
 nnoremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 map <F3> :NERDTreeToggle<CR>
-map <F4> :MinimapToggle<CR>
+"map <F4> :MinimapToggle<CR>
 vmap <F5> "+yy<CR>
 map <F6> :source $MYVIMRC<CR>
 set pastetoggle=<F2>

@@ -92,6 +92,12 @@ ln -s /home/$user/.dotfiles/BD/themes /home/$user/.config/BetterDiscord/themes
 ln -s /home/$user/.dotfiles/BD/plugins /home/$user/.config/BetterDiscord/plugins
 
 
+# ssh
+sudo apt install ssh
+sudo mkdir .ssh/
+ln -s /home/$user/.dotfiles/.\*rc/ssh/config /home/$user/.ssh/
+ssh-keygen
+
 
 # clones https://github.com/qw3rtman/git-fire
 git clone https://github.com/qw3rtman/git-fire
