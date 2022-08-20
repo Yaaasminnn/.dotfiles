@@ -1,0 +1,15 @@
+#!/bin/python3
+
+"""
+counts the lines in a file
+"""
+
+import sys
+
+def lineCount(file:str)->int:
+    try:
+        return sum(1 for line in open(file))
+    except Exception as e:
+        return f"Cannot read file: {file} \n{e}"
+
+print(lineCount(sys.argv[1]))

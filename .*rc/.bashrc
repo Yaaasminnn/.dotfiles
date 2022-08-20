@@ -95,6 +95,7 @@ alias iplist="nmap -sn 192.68.0.0/24" # make this a function
 alias findpi="iplist | grep pi"
 alias fix-audio="systemctl --user restart pipewire.service"
 export EDITOR="/usr/bin/vim"
+alias lc="line_count"
 
 # shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
