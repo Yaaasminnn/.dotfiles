@@ -66,13 +66,11 @@ PS2='\[\033[$(lastExitCode)\]   -->\[\033[0m\]' # the 2nd prompt. '   -->'
 
 
 # some ls aliases
-alias ls="ls --color"
-alias ll='ls -lF'
-alias la='ls -A'
 alias l='ls -CF'
-alias lal="ls -la"
+alias ls="ls -F --color"
+alias la='ls -A'
+alias ll='ls -lF'
 alias lla="ls -la"
-alias all="ls -la"
 alias lh="ls -d .?*"
 alias llh="ls -ld .?*"
 alias cd...="cd ..;cd .."
