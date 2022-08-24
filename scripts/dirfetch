@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+
+"""
+Dirfetch
+
+dev: lvlonEmperor
+date: 2022-08-24
+
+Fetches a directories contents and details
+works like one of them fetch cli apps.
+
+features:
+    directory size
+    num of files
+    num of folders
+    git repo if any
+    name
+    hidden files/dirs
+    datetimes
+        modified
+        created
+        accessed
+    colour blocks
+"""
+
+import os
+import sys
+
+if __name__ == "__main__": pass
