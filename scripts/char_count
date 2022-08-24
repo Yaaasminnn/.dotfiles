@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+
+"""
+checks the number of characters in a given file.
+
+-l, --literal: number of characters in the actual input string
+  cc -l hi
+  >>> 2 // 'hi' is 2 characters
+otherwise try to open a file
+  cc "main.py"
+  >>> 300 // main.py has 300 characters in it 
+"""
+
+import sys
+
+def countFile(file:str): # returns the # of characters in a file 
+    try:
+        with open(file, "r") as f:
+            contents = f.read()
+
+        i:int =0
+        for char in contents:
+            i+=1
+
+        return i
+    except Exception as e:
+        return f"Cannot read file: {file} \n{e}"
+
+def countStr(string:str): # returns the length of a string 
+    return len(string)
+
+
+
+if __name__ == "__main__":
+    if sys.argv[1] == "-l" or sys.argv[1] == "--literal":
+        print(countStr(sys.argv[2]))
+    else:
+        print(countFile(sys.argv[1]))

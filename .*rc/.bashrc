@@ -85,6 +85,7 @@ alias okbye="/home/$user/programming/scripts/gn.sh"
 alias kys="exit"
 alias bashtop="bpytop"
 alias reparse=". /home/$user/.bashrc"
+alias reload=". /home/$user/.bashrc"
 alias refresh="clear;cd"
 alias :q="exit"
 alias :Q="exit"
@@ -96,6 +97,7 @@ alias findpi="iplist | grep pi"
 alias fix-audio="systemctl --user restart pipewire.service"
 export EDITOR="/usr/bin/vim"
 alias lc="line_count"
+alias cc="char_count"
 
 # shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
