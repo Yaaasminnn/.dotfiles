@@ -78,8 +78,7 @@ alias cd...="cd ..;cd .."
 # general bash aliases
 alias cat="cat -n"
 alias slep='systemctl suspend'
-alias gn="/home/$user/programming/scripts/gn.sh"
-alias okbye="/home/$user/programming/scripts/gn.sh"
+alias okbye="gn"
 alias kys="exit"
 alias bashtop="bpytop"
 alias reparse=". /home/$user/.bashrc"
