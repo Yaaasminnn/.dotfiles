@@ -15,3 +15,9 @@ Host desktop
   user loona
   Port 22
   IdentityFile ~/.ssh/id_rsa
+
+Host laptop.old
+  Hostname 10.0.0.64
+  user loona
+  Port 22
+  IdentityFile ~/.ssh/id_rsa
