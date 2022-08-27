@@ -23,6 +23,7 @@ cd ~ # moves to the home directory
 
 # makes directories
 mkdir -p ~/programming/Work ~/programming/learning ~/programming/archives   # programming
+# programming/learning dirs GO, python, C_CPP etc
 mkdir /home/$user/GIMP /home/$user/School # ~ 
 
 # moves wallpapers to the wallpapers location
@@ -83,7 +84,7 @@ sudo apt install libfuse2
 #BetterDiscord
 wget https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage # installs
 sudo mv BetterDiscord-Linux.AppImage /usr/bin/BetterDiscord # moves to the right directory
-sudo chown /usr/bin/BetterDiscord $user:users # this could be an error. since the user may not be in users
+sudo chown $user:users /usr/bin/BetterDiscord # this could be an error. since the user may not be in users
 sudo chmod +x /usr/bin/BetterDiscord
 
 mkdir -p /home/$user/.config/BetterDiscord/ # makes the BetterDiscord directory
