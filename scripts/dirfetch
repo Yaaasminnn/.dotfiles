@@ -26,4 +26,56 @@ features:
 import os
 import sys
 
-if __name__ == "__main__": pass
+def classifyItems(scannedDir)->dict:
+    # returns a dict of the number of files, directories and total items in the given directory 
+
+    classified = {
+        'files': 0,
+        'subdirs':0,
+        'total': 0,
+        'hidden files': 0,
+        'hidden subdirs': 0
+    }
+
+    for item in scannedDir:
+        if item.is_file(): # if the item is a file
+            classified['files'] +=1
+            if item.name.startswith('.'):
+                classified['hidden files'] +=1
+
+        elif item.is_dir(): # if the item is a directory 
+            classified['subdirs'] +=1
+            if item.name.startswith('.'):
+                classified['hidden subdirs'] +=1
+
+        classified['total'] +=1
+
+    return classified
+
+def dirAttributes():
+    dir = {} # the dictionary with all the relevant info
+
+    dir['name'] = os.getcwd() # name of the directory 
+
+    # scans the dir for the num of files, dirs and total items 
+    scannedDir = os.scandir(dir['name'])
+    classified = classifyItems(scannedDir)
+    dir['num_items'] = classified['total']
+    dir['num_files'] = classified['files']
+    dir['num_subdirs'] = classified['subdirs']
+    dir['num_hidden_files'] = classified['hidden files']
+    dir['num_hidden_subdirs'] = classified['hidden subdirs']
+
+
+    return dir
+
+if __name__ == "__main__":
+
+    dir = dirAttributes()
+
+    print("# of items: ", dir['num_items']) # number of items
+    print("name: ", dir['name']) # prints dir name
+    print('number of files: ', dir['num_files'])
+    print('subdirectories count', dir['num_subdirs'])
+    print('hidden files: ', dir['num_hidden_files'])
+    print('hidden dirs', dir['num_hidden_subdirs'])
