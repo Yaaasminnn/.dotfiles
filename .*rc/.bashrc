@@ -6,6 +6,7 @@ user=$(whoami)
 hostname=$(hostname)
 
 source /home/$user/.git-prompt.sh # used for the git-prompt
+source /etc/profile.d/bash_completion.sh
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
