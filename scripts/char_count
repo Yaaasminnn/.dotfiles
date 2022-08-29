@@ -11,28 +11,38 @@ otherwise try to open a file
   >>> 300 // main.py has 300 characters in it 
 """
 
-import sys
+import string 
+import argparse
 
-def countFile(file:str): # returns the # of characters in a file 
+def countFile(file:str, ignore_whitespace=False): # returns the # of characters in a file 
     try:
         with open(file, "r") as f:
             contents = f.read()
 
         i:int =0
         for char in contents:
-            i+=1
+            if ignore_whitespace:
+                if char not in string.whitespace:
+                    i+=1
+            else:
+                i+=1
 
         return i
     except Exception as e:
         return f"Cannot read file: {file} \n{e}"
 
-def countStr(string:str): # returns the length of a string 
-    return len(string)
-
 
 
 if __name__ == "__main__":
-    if sys.argv[1] == "-l" or sys.argv[1] == "--literal":
-        print(countStr(sys.argv[2]))
-    else:
-        print(countFile(sys.argv[1]))
+
+    parser = argparse.ArgumentParser(description='return the number of characters in a file')
+    parser.add_argument('file',
+                        help='the file used')
+    parser.add_argument('--ignore-whitespace', '-i',
+                        action='store_true',
+                        default=False,
+                        help='ignore whitespace')
+
+    args = parser.parse_args()
+
+    print(countFile(args.file, args.ignore_whitespace))
