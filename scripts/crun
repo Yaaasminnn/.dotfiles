@@ -1,9 +1,13 @@
-#!/usr/bin/python3.10
+#!/usr/bin/python3
 
 """
 Compile/Run script for C++ in python.
 
+This is meant for tiny little scripts that need no libraries to be linked
+prevents me from making a cmake project and i dont need to run gcc manually
+
 maybe extend functionality to other languages?
+allow other files to be linked?
 """
 
 import sys
@@ -29,5 +33,4 @@ def run(exec_file:str): # runs the executable
     os.system(f"./{exec_file}")
 
 
-#print(sys.argv[1])
 run(compile(sys.argv[1]))
