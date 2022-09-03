@@ -17,10 +17,15 @@ filetype plugin indent on
 " Turn off modelines
 set modelines=0
 
+" prevents jedi-vim from showing documentation everytime
+set completeopt-=preview
+
 " Automatically wrap text that extends beyond the screen length.
 set wrap
 " Vim's auto indentation feature does not work properly with text copied from outside of Vim. Press the <F2> key to toggle paste mode on/off.
 nnoremap <F2> :set invpaste paste?<CR>
+" autocomplete uses tab instead
+inoremap <Tab> <C-n>
 imap <F2> <C-O>:set invpaste paste?<CR>
 map <F3> :NERDTreeToggle<CR>
 "map <F4> :MinimapToggle<CR>

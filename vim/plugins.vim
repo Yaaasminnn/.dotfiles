@@ -16,5 +16,15 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'puremourning/vimspector'
 "Plug 'wfxr/minimap.vim'
 Plug 'NLKNguyen/papercolor-theme'
+
+Plug 'StanAngeloff/php.vim' " php syntax support
+
+" auto completion
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+
+Plug 'davidhalter/jedi-vim' " python autocomplete
+
+
 call plug#end()
 
