@@ -3951,8 +3951,9 @@ brasero-common/jammy,jammy 3.12.3-1 all
 
 brasero/jammy 3.12.3-1 amd64
 
-brave-browser/stable 1.43.88 amd64 [upgradable from: 1.42.97]
-brave-browser/stable,now 1.42.97 amd64 [installed,upgradable to: 1.43.88]
+brave-browser/stable 1.43.89 amd64 [upgradable from: 1.42.97]
+brave-browser/stable 1.43.88 amd64
+brave-browser/stable,now 1.42.97 amd64 [installed,upgradable to: 1.43.89]
 brave-browser/stable 1.42.95 amd64
 brave-browser/stable 1.42.88 amd64
 brave-browser/stable 1.42.86 amd64
@@ -6319,7 +6320,7 @@ clearlooks-phenix-theme/jammy,jammy 7.0.1-3 all
 
 clearsilver-dev/jammy 0.10.5-4build3 amd64
 
-clementine/jammy 1.4.0~rc1+git347-gfc4cb6fc7+dfsg-2 amd64
+clementine/jammy,now 1.4.0~rc1+git347-gfc4cb6fc7+dfsg-2 amd64 [installed]
 
 cleo/jammy,jammy 0.004-3 all
 
@@ -19328,6 +19329,8 @@ gcin/jammy 2.9.0+dfsg1-2build1 amd64
 gcl-doc/jammy,jammy 2.6.12-117 all
 
 gcl/jammy 2.6.12-117 amd64
+
+gcm/now 2.0.785 amd64 [installed,local]
 
 gcolor3/jammy 2.3.1-2build1 amd64
 
@@ -44994,7 +44997,7 @@ libcrypto++-doc/jammy,jammy 8.6.0-2ubuntu1 all
 
 libcrypto++-utils/jammy 8.6.0-2ubuntu1 amd64
 
-libcrypto++8/jammy 8.6.0-2ubuntu1 amd64
+libcrypto++8/jammy,now 8.6.0-2ubuntu1 amd64 [installed,automatic]
 
 libcrypto-equality-clojure/jammy,jammy 1.0.0-2 all
 
@@ -60731,13 +60734,13 @@ libgpod-cil-dev/jammy 0.8.3-16build2 amd64
 
 libgpod-cil/jammy 0.8.3-16build2 amd64
 
-libgpod-common/jammy 0.8.3-16build2 amd64
+libgpod-common/jammy,now 0.8.3-16build2 amd64 [installed,automatic]
 
 libgpod-dev/jammy 0.8.3-16build2 amd64
 
 libgpod-doc/jammy,jammy 0.8.3-16build2 all
 
-libgpod4/jammy 0.8.3-16build2 amd64
+libgpod4/jammy,now 0.8.3-16build2 amd64 [installed,automatic]
 
 libgportugol-dev/jammy 1.1-7 amd64
 
@@ -67551,7 +67554,7 @@ liblastfm-java/jammy,jammy 1:0.1.0-2.1 all
 
 liblastfm-ocaml-dev/jammy 0.3.3-1build2 amd64
 
-liblastfm5-1/jammy 1.0.9-1.2 amd64
+liblastfm5-1/jammy,now 1.0.9-1.2 amd64 [installed,automatic]
 
 liblastfm5-dbg/jammy 1.0.9-1.2 amd64
 
@@ -71901,7 +71904,7 @@ libmxml1/jammy 3.3-1 i386
 
 libmygpo-qt-dev/jammy 1.1.0-4 amd64
 
-libmygpo-qt5-1/jammy 1.1.0-4 amd64
+libmygpo-qt5-1/jammy,now 1.1.0-4 amd64 [installed,automatic]
 
 libmygui-dev/jammy 3.4.1+dfsg-1 amd64
 
@@ -79091,7 +79094,7 @@ libprotobuf-lite23/jammy 3.12.4-1ubuntu7 i386
 
 libprotobuf2-java/jammy,jammy 2.6.1-4 all
 
-libprotobuf23/jammy 3.12.4-1ubuntu7 amd64
+libprotobuf23/jammy,now 3.12.4-1ubuntu7 amd64 [installed,automatic]
 
 libprotobuf23/jammy 3.12.4-1ubuntu7 i386
 
@@ -86769,7 +86772,7 @@ libsgml-parser-opensp-perl/jammy 0.994-3build9 amd64
 
 libsgmls-perl/jammy,jammy 1.03ii-36 all
 
-libsgutils2-2/jammy 1.46-1build1 amd64
+libsgutils2-2/jammy,now 1.46-1build1 amd64 [installed,automatic]
 
 libsgutils2-dev/jammy 1.46-1build1 amd64
 
@@ -113022,8 +113025,8 @@ obs-scene-collection-manager/jammy 0.0.4-2 amd64
 
 obs-scene-notes-dock/jammy 0.0.4-1 amd64
 
-obs-studio/jammy 28.0.0-0obsproject1~jammy amd64 [upgradable from: 27.2.4-0obsproject1~jammy]
-obs-studio/now 27.2.4-0obsproject1~jammy amd64 [installed,upgradable to: 28.0.0-0obsproject1~jammy]
+obs-studio/jammy 28.0.1-0obsproject1~jammy amd64 [upgradable from: 27.2.4-0obsproject1~jammy]
+obs-studio/now 27.2.4-0obsproject1~jammy amd64 [installed,upgradable to: 28.0.1-0obsproject1~jammy]
 obs-studio/jammy 27.2.3+dfsg1-1 amd64
 
 obs-text-slideshow/jammy 1.5.2-2 amd64

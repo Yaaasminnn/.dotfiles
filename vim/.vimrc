@@ -25,7 +25,7 @@ set wrap
 " Vim's auto indentation feature does not work properly with text copied from outside of Vim. Press the <F2> key to toggle paste mode on/off.
 nnoremap <F2> :set invpaste paste?<CR>
 " autocomplete uses tab instead
-inoremap <Tab> <C-n>
+inoremap <S-Tab> <C-n>
 imap <F2> <C-O>:set invpaste paste?<CR>
 map <F3> :NERDTreeToggle<CR>
 "map <F4> :MinimapToggle<CR>
