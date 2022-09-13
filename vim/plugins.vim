@@ -18,6 +18,13 @@ Plug 'puremourning/vimspector'
 Plug 'NLKNguyen/papercolor-theme'
 
 Plug 'StanAngeloff/php.vim' " php syntax support
+" Include Phpactor
+Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
+
+" Require ncm2 and this plugin
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'phpactor/ncm2-phpactor'
 
 " auto completion
 Plug 'ncm2/ncm2'
