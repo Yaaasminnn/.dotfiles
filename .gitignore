@@ -3,8 +3,3 @@ vim/.vim/plugged/*
 vim/.vim/autoload/*
 .directory
 vim/.vim/.netrwhist
-
-BD/plugins/*.json
-BD/plugins/*.css
-BD/plugins/0BDFDB.plugin.js
-BD/plugins/0PluginLibrary.plugin.js
