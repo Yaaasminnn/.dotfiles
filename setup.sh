@@ -102,7 +102,7 @@ declare -a plugins=("https://raw.githubusercontent.com/mwittrien/BetterDiscordAd
   "https://raw.githubusercontent.com/QWERTxD/BetterDiscordPlugins/main/CallTimeCounter/CallTimeCounter.plugin.js"
   "https://raw.githubusercontent.com/vizality-community/better-code-blocks/main/index.js"
 )
-declare -a themes=("https://raw.githubusercontent.com/DiscordStyles/DarkMatter/main/DarkMatter.theme.css")
+declare -a themes=("https://raw.githubusercontent.com/DiscordStyles/DarkMatter/main/DarkMatter.theme.css" "https://raw.githubusercontent.com/mr-miner1/Better-Badges/main/theme.scss")
 cd /home/$user/.dotfiles/BD/plugins/
 for plugin in "${plugins[@]}"
 do

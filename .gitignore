@@ -3,3 +3,6 @@ vim/.vim/plugged/*
 vim/.vim/autoload/*
 .directory
 vim/.vim/.netrwhist
+
+BD/plugins/
+BD/themes/
