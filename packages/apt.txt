@@ -1955,9 +1955,9 @@ aspell/jammy 0.60.8-4build1 i386
 
 aspic/jammy 1.05-4build1 amd64
 
-aspnetcore-runtime-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+aspnetcore-runtime-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-aspnetcore-targeting-pack-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+aspnetcore-targeting-pack-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
 asql/jammy,jammy 1.6-1.1 all
 
@@ -2803,6 +2803,7 @@ basket/jammy 2.49-1build1 amd64
 
 bastet/jammy 0.43-7 amd64
 
+bat/jammy-updates,jammy-security 0.19.0-1ubuntu0.1 amd64
 bat/jammy 0.19.0-1 amd64
 
 batalert/jammy,jammy 0.4.0-1 all
@@ -3129,6 +3130,7 @@ bindechexascii/jammy 0.0+20140524.git7dcd86-4 amd64
 
 bindfs/jammy 1.14.7-1 amd64
 
+bindgen/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 bindgen/jammy 0.59.1-2 amd64
 
 bindgraph/jammy,jammy 0.2a-6 all
@@ -3956,16 +3958,15 @@ brasero-common/jammy,jammy 3.12.3-1 all
 
 brasero/jammy 3.12.3-1 amd64
 
-brave-browser/stable 1.43.89 amd64 [upgradable from: 1.42.97]
+brave-browser/stable 1.43.93 amd64 [upgradable from: 1.42.97]
+brave-browser/stable 1.43.89 amd64
 brave-browser/stable 1.43.88 amd64
-brave-browser/stable,now 1.42.97 amd64 [installed,upgradable to: 1.43.89]
+brave-browser/stable,now 1.42.97 amd64 [installed,upgradable to: 1.43.93]
 brave-browser/stable 1.42.95 amd64
 brave-browser/stable 1.42.88 amd64
 brave-browser/stable 1.42.86 amd64
 brave-browser/stable 1.41.100 amd64
 brave-browser/stable 1.41.99 amd64
-brave-browser/stable 1.41.96 amd64
-brave-browser/stable 1.40.113 amd64
 
 brave-keyring/stable,now 1.13 all [installed,automatic]
 brave-keyring/stable 1.12 all
@@ -5116,6 +5117,7 @@ cd-boot-images-arm64/jammy,jammy 16 all
 
 cd-boot-images-ppc64el/jammy,jammy 13 all
 
+cd-boot-images-riscv64/jammy-updates,jammy-updates 5.1 all
 cd-boot-images-riscv64/jammy,jammy 5 all
 
 cd-circleprint/jammy,jammy 0.7.0-5.1 all
@@ -6600,43 +6602,43 @@ coccinelle/jammy 1.1.1.deb-1build2 amd64
 
 cockpit-389-ds/jammy,jammy 2.0.15-1 all
 
-cockpit-bridge/jammy-backports 276-1~bpo22.04.1 amd64
+cockpit-bridge/jammy-backports 276.1-1~bpo22.04.1 amd64
 cockpit-bridge/jammy 264-1 amd64
 
-cockpit-doc/jammy-backports,jammy-backports 276-1~bpo22.04.1 all
+cockpit-doc/jammy-backports,jammy-backports 276.1-1~bpo22.04.1 all
 cockpit-doc/jammy,jammy 264-1 all
 
 cockpit-machines/jammy-backports,jammy-backports 272-1~bpo22.04.1 all
 cockpit-machines/jammy,jammy 265-1 all
 
-cockpit-networkmanager/jammy-backports,jammy-backports 276-1~bpo22.04.1 all
+cockpit-networkmanager/jammy-backports,jammy-backports 276.1-1~bpo22.04.1 all
 cockpit-networkmanager/jammy,jammy 264-1 all
 
-cockpit-packagekit/jammy-backports,jammy-backports 276-1~bpo22.04.1 all
+cockpit-packagekit/jammy-backports,jammy-backports 276.1-1~bpo22.04.1 all
 cockpit-packagekit/jammy,jammy 264-1 all
 
-cockpit-pcp/jammy-backports 276-1~bpo22.04.1 amd64
+cockpit-pcp/jammy-backports 276.1-1~bpo22.04.1 amd64
 cockpit-pcp/jammy 264-1 amd64
 
 cockpit-podman/jammy-backports,jammy-backports 53-1~bpo22.04.1 all
 cockpit-podman/jammy,jammy 45-1 all
 
-cockpit-sosreport/jammy-backports,jammy-backports 276-1~bpo22.04.1 all
+cockpit-sosreport/jammy-backports,jammy-backports 276.1-1~bpo22.04.1 all
 cockpit-sosreport/jammy,jammy 264-1 all
 
-cockpit-storaged/jammy-backports,jammy-backports 276-1~bpo22.04.1 all
+cockpit-storaged/jammy-backports,jammy-backports 276.1-1~bpo22.04.1 all
 cockpit-storaged/jammy,jammy 264-1 all
 
-cockpit-system/jammy-backports,jammy-backports 276-1~bpo22.04.1 all
+cockpit-system/jammy-backports,jammy-backports 276.1-1~bpo22.04.1 all
 cockpit-system/jammy,jammy 264-1 all
 
-cockpit-tests/jammy-backports 276-1~bpo22.04.1 amd64
+cockpit-tests/jammy-backports 276.1-1~bpo22.04.1 amd64
 cockpit-tests/jammy 264-1 amd64
 
-cockpit-ws/jammy-backports 276-1~bpo22.04.1 amd64
+cockpit-ws/jammy-backports 276.1-1~bpo22.04.1 amd64
 cockpit-ws/jammy 264-1 amd64
 
-cockpit/jammy-backports,jammy-backports 276-1~bpo22.04.1 all
+cockpit/jammy-backports,jammy-backports 276.1-1~bpo22.04.1 all
 cockpit/jammy,jammy 264-1 all
 
 coco-cpp/jammy 20120102-1build2 amd64
@@ -8695,6 +8697,7 @@ debbugs-web/jammy,jammy 2.6.0ubuntu1 all
 
 debbugs/jammy,jammy 2.6.0ubuntu1 all
 
+debcargo/jammy-updates,jammy-security 2.5.0-2ubuntu0.1 amd64
 debcargo/jammy 2.5.0-2 amd64
 
 debci-collector/jammy,jammy 3.4 all
@@ -9171,6 +9174,7 @@ dfc/jammy 3.1.1-1 amd64
 
 dfcgen-gtk/jammy 0.5-1build1 amd64
 
+dfrs/jammy-updates,jammy-security 0.0.7-2ubuntu0.1 amd64
 dfrs/jammy 0.0.7-2 amd64
 
 dfu-programmer/jammy 0.6.1-1build1 amd64
@@ -10389,23 +10393,23 @@ dothost/jammy 0.2-6 amd64
 
 dotmcp/jammy 0.2.2.1-3build1 amd64
 
-dotnet-apphost-pack-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-apphost-pack-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet-host/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-host/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet-hostfxr-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-hostfxr-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet-runtime-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-runtime-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet-sdk-6.0-source-built-artifacts/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-sdk-6.0-source-built-artifacts/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet-sdk-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-sdk-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet-targeting-pack-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-targeting-pack-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet-templates-6.0/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet-templates-6.0/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
-dotnet6/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+dotnet6/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
 dotter/jammy 4.44.1+dfsg-7build1 amd64
 
@@ -10513,15 +10517,15 @@ dpaste/jammy 0.4.0-1build1 amd64
 
 dpatch/jammy,jammy 2.0.41 all
 
-dpdk-dev/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+dpdk-dev/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 dpdk-dev/jammy 21.11-1build1 amd64
 
-dpdk-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 21.11.1-0ubuntu0.3 all
+dpdk-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 21.11.2-0ubuntu0.22.04.1 all
 dpdk-doc/jammy,jammy 21.11-1build1 all
 
 dpdk-kmods-dkms/jammy 0~20220111+git-1 amd64
 
-dpdk/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+dpdk/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 dpdk/jammy 21.11-1build1 amd64
 
 dpf-plugins-common/jammy 1.4-1 amd64
@@ -13522,6 +13526,7 @@ fcoe-utils/jammy 1.0.34-1 amd64
 
 fcrackzip/jammy 1.0-11 amd64
 
+fd-find/jammy-updates,jammy-security 8.3.1-1ubuntu0.1 amd64
 fd-find/jammy 8.3.1-1 amd64
 
 fdb5/jammy 5.10.2-1 amd64
@@ -19989,8 +19994,10 @@ gdisk/jammy,now 1.0.8-4build1 amd64 [installed,automatic]
 
 gdisk/jammy 1.0.8-4build1 i386
 
+gdk-pixbuf-tests/jammy-updates,jammy-security 2.42.8+dfsg-1ubuntu0.1 amd64
 gdk-pixbuf-tests/jammy 2.42.8+dfsg-1 amd64
 
+gdk-pixbuf-tests/jammy-updates,jammy-security 2.42.8+dfsg-1ubuntu0.1 i386
 gdk-pixbuf-tests/jammy 2.42.8+dfsg-1 i386
 
 gdl-astrolib/jammy,jammy 2021.12.26+dfsg-1 all
@@ -21477,8 +21484,10 @@ gir1.2-gdesktopenums-3.0/jammy 42.0-1ubuntu1 amd64
 
 gir1.2-gdesktopenums-3.0/jammy 42.0-1ubuntu1 i386
 
-gir1.2-gdkpixbuf-2.0/jammy,now 2.42.8+dfsg-1 amd64 [installed,automatic]
+gir1.2-gdkpixbuf-2.0/jammy-updates,jammy-security,now 2.42.8+dfsg-1ubuntu0.1 amd64 [installed,automatic]
+gir1.2-gdkpixbuf-2.0/jammy 2.42.8+dfsg-1 amd64
 
+gir1.2-gdkpixbuf-2.0/jammy-updates,jammy-security 2.42.8+dfsg-1ubuntu0.1 i386
 gir1.2-gdkpixbuf-2.0/jammy 2.42.8+dfsg-1 i386
 
 gir1.2-gdl-3/jammy 3.40.0-1 amd64
@@ -21710,16 +21719,16 @@ gir1.2-isocodes-1.2/jammy 1.2.4-1 amd64
 
 gir1.2-itl-1.0/jammy 0.3-1 amd64
 
-gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 gir1.2-javascriptcoregtk-4.0/jammy 2.36.0-2ubuntu1 amd64
 
-gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 gir1.2-javascriptcoregtk-4.0/jammy 2.36.0-2ubuntu1 i386
 
-gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 gir1.2-javascriptcoregtk-4.1/jammy 2.36.0-2ubuntu1 amd64
 
-gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 gir1.2-javascriptcoregtk-4.1/jammy 2.36.0-2ubuntu1 i386
 
 gir1.2-jcat-1.0/jammy 0.1.9-1 amd64
@@ -21953,16 +21962,16 @@ gir1.2-vips-8.0/jammy 8.12.1-1build1 amd64
 
 gir1.2-vte-2.91/jammy 0.68.0-1 amd64
 
-gir1.2-webkit2-4.0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+gir1.2-webkit2-4.0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 gir1.2-webkit2-4.0/jammy 2.36.0-2ubuntu1 amd64
 
-gir1.2-webkit2-4.0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+gir1.2-webkit2-4.0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 gir1.2-webkit2-4.0/jammy 2.36.0-2ubuntu1 i386
 
-gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 gir1.2-webkit2-4.1/jammy 2.36.0-2ubuntu1 amd64
 
-gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 gir1.2-webkit2-4.1/jammy 2.36.0-2ubuntu1 i386
 
 gir1.2-wnck-1.0/jammy 1:2.30.7-5.1ubuntu2 amd64
@@ -31240,6 +31249,7 @@ hylafax-server-dbg/jammy 3:6.0.7-3.1 amd64
 
 hylafax-server/jammy 3:6.0.7-3.1 amd64
 
+hyperfine/jammy-updates,jammy-security 1.12.0-3ubuntu0.1 amd64
 hyperfine/jammy 1.12.0-3 amd64
 
 hyperrogue-music/jammy,jammy 12.0f-1build1 all
@@ -35021,6 +35031,7 @@ lagan/jammy 2.0-6 amd64
 
 lakai/jammy 0.1-2 amd64
 
+lalrpop/jammy-updates,jammy-security 0.17.2-8ubuntu0.1 amd64
 lalrpop/jammy 0.17.2-8 amd64
 
 lam-mpidoc/jammy,jammy 7.1.4-7 all
@@ -47241,7 +47252,7 @@ libdoxia-sitetools-java/jammy,jammy 1.7.5-2 all
 
 libdoxygen-filter-perl/jammy,jammy 1.72-2.1 all
 
-libdpdk-dev/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+libdpdk-dev/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 libdpdk-dev/jammy 21.11-1build1 amd64
 
 libdpkg-dev/jammy-updates,jammy-security 1.21.1ubuntu2.1 amd64
@@ -51495,12 +51506,16 @@ libgdf0/jammy 0.1.3-11 amd64
 
 libgdiplus/jammy 6.0.4+dfsg-2 amd64
 
-libgdk-pixbuf-2.0-0/jammy,now 2.42.8+dfsg-1 amd64 [installed,automatic]
+libgdk-pixbuf-2.0-0/jammy-updates,jammy-security,now 2.42.8+dfsg-1ubuntu0.1 amd64 [installed,automatic]
+libgdk-pixbuf-2.0-0/jammy 2.42.8+dfsg-1 amd64
 
+libgdk-pixbuf-2.0-0/jammy-updates,jammy-security 2.42.8+dfsg-1ubuntu0.1 i386
 libgdk-pixbuf-2.0-0/jammy 2.42.8+dfsg-1 i386
 
+libgdk-pixbuf-2.0-dev/jammy-updates,jammy-security 2.42.8+dfsg-1ubuntu0.1 amd64
 libgdk-pixbuf-2.0-dev/jammy 2.42.8+dfsg-1 amd64
 
+libgdk-pixbuf-2.0-dev/jammy-updates,jammy-security 2.42.8+dfsg-1ubuntu0.1 i386
 libgdk-pixbuf-2.0-dev/jammy 2.42.8+dfsg-1 i386
 
 libgdk-pixbuf-xlib-2.0-0/jammy 2.40.2-2build4 amd64
@@ -51515,16 +51530,20 @@ libgdk-pixbuf2.0-0/jammy 2.40.2-2build4 amd64
 
 libgdk-pixbuf2.0-0/jammy 2.40.2-2build4 i386
 
-libgdk-pixbuf2.0-bin/jammy,now 2.42.8+dfsg-1 amd64 [installed,automatic]
+libgdk-pixbuf2.0-bin/jammy-updates,jammy-security,now 2.42.8+dfsg-1ubuntu0.1 amd64 [installed,automatic]
+libgdk-pixbuf2.0-bin/jammy 2.42.8+dfsg-1 amd64
 
+libgdk-pixbuf2.0-bin/jammy-updates,jammy-security 2.42.8+dfsg-1ubuntu0.1 i386
 libgdk-pixbuf2.0-bin/jammy 2.42.8+dfsg-1 i386
 
-libgdk-pixbuf2.0-common/jammy,jammy,now 2.42.8+dfsg-1 all [installed,automatic]
+libgdk-pixbuf2.0-common/jammy-updates,jammy-updates,jammy-security,jammy-security,now 2.42.8+dfsg-1ubuntu0.1 all [installed,automatic]
+libgdk-pixbuf2.0-common/jammy,jammy 2.42.8+dfsg-1 all
 
 libgdk-pixbuf2.0-dev/jammy 2.40.2-2build4 amd64
 
 libgdk-pixbuf2.0-dev/jammy 2.40.2-2build4 i386
 
+libgdk-pixbuf2.0-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.42.8+dfsg-1ubuntu0.1 all
 libgdk-pixbuf2.0-doc/jammy,jammy 2.42.8+dfsg-1 all
 
 libgdk3.0-cil-dev/jammy 2.99.3-4build1 amd64
@@ -64466,34 +64485,35 @@ libjavascript-packer-perl/jammy,jammy 2.08+dfsg-1 all
 
 libjavascript-rpc-perl/jammy,jammy 0.10-2 all
 
-libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security,now 2.36.6-0ubuntu0.22.04.1 amd64 [installed,automatic]
+libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64 [upgradable from: 2.36.6-0ubuntu0.22.04.1]
+libjavascriptcoregtk-4.0-18/now 2.36.6-0ubuntu0.22.04.1 amd64 [installed,upgradable to: 2.36.7-0ubuntu0.22.04.1]
 libjavascriptcoregtk-4.0-18/jammy 2.36.0-2ubuntu1 amd64
 
-libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libjavascriptcoregtk-4.0-18/jammy 2.36.0-2ubuntu1 i386
 
-libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 libjavascriptcoregtk-4.0-bin/jammy 2.36.0-2ubuntu1 amd64
 
-libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libjavascriptcoregtk-4.0-bin/jammy 2.36.0-2ubuntu1 i386
 
-libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 libjavascriptcoregtk-4.0-dev/jammy 2.36.0-2ubuntu1 amd64
 
-libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libjavascriptcoregtk-4.0-dev/jammy 2.36.0-2ubuntu1 i386
 
-libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 libjavascriptcoregtk-4.1-0/jammy 2.36.0-2ubuntu1 amd64
 
-libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libjavascriptcoregtk-4.1-0/jammy 2.36.0-2ubuntu1 i386
 
-libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 libjavascriptcoregtk-4.1-dev/jammy 2.36.0-2ubuntu1 amd64
 
-libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libjavascriptcoregtk-4.1-dev/jammy 2.36.0-2ubuntu1 i386
 
 libjavassist-java-doc/jammy,jammy 1:3.27.0-1 all
@@ -78793,8 +78813,8 @@ libpoppler-cpp-dev/jammy 22.02.0-2 amd64
 libpoppler-cpp-dev/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 libpoppler-cpp-dev/jammy 22.02.0-2 i386
 
-libpoppler-cpp0v5/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 amd64 [upgradable from: 22.02.0-2]
-libpoppler-cpp0v5/jammy,now 22.02.0-2 amd64 [installed,upgradable to: 22.02.0-2ubuntu0.1]
+libpoppler-cpp0v5/jammy-updates,jammy-security,now 22.02.0-2ubuntu0.1 amd64 [installed,automatic]
+libpoppler-cpp0v5/jammy 22.02.0-2 amd64
 
 libpoppler-cpp0v5/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 libpoppler-cpp0v5/jammy 22.02.0-2 i386
@@ -78814,8 +78834,8 @@ libpoppler-glib-dev/jammy 22.02.0-2 i386
 libpoppler-glib-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 22.02.0-2ubuntu0.1 all
 libpoppler-glib-doc/jammy,jammy 22.02.0-2 all
 
-libpoppler-glib8/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 amd64 [upgradable from: 22.02.0-2]
-libpoppler-glib8/jammy,now 22.02.0-2 amd64 [installed,upgradable to: 22.02.0-2ubuntu0.1]
+libpoppler-glib8/jammy-updates,jammy-security,now 22.02.0-2ubuntu0.1 amd64 [installed,automatic]
+libpoppler-glib8/jammy 22.02.0-2 amd64
 
 libpoppler-glib8/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 libpoppler-glib8/jammy 22.02.0-2 i386
@@ -78826,8 +78846,8 @@ libpoppler-private-dev/jammy 22.02.0-2 amd64
 libpoppler-private-dev/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 libpoppler-private-dev/jammy 22.02.0-2 i386
 
-libpoppler-qt5-1/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 amd64 [upgradable from: 22.02.0-2]
-libpoppler-qt5-1/jammy,now 22.02.0-2 amd64 [installed,upgradable to: 22.02.0-2ubuntu0.1]
+libpoppler-qt5-1/jammy-updates,jammy-security,now 22.02.0-2ubuntu0.1 amd64 [installed,automatic]
+libpoppler-qt5-1/jammy 22.02.0-2 amd64
 
 libpoppler-qt5-1/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 libpoppler-qt5-1/jammy 22.02.0-2 i386
@@ -78838,8 +78858,8 @@ libpoppler-qt5-dev/jammy 22.02.0-2 amd64
 libpoppler-qt5-dev/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 libpoppler-qt5-dev/jammy 22.02.0-2 i386
 
-libpoppler118/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 amd64 [upgradable from: 22.02.0-2]
-libpoppler118/jammy,now 22.02.0-2 amd64 [installed,upgradable to: 22.02.0-2ubuntu0.1]
+libpoppler118/jammy-updates,jammy-security,now 22.02.0-2ubuntu0.1 amd64 [installed,automatic]
+libpoppler118/jammy 22.02.0-2 amd64
 
 libpoppler118/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 libpoppler118/jammy 22.02.0-2 i386
@@ -82522,589 +82542,589 @@ librtcom-telepathy-glib-dev/jammy 0.1.38~git.1.e4dae27b-0ubuntu5 amd64
 
 librtcom-telepathy-glib0/jammy 0.1.38~git.1.e4dae27b-0ubuntu5 amd64
 
-librte-acl22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-acl22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-acl22/jammy 21.11-1build1 amd64
 
-librte-baseband-acc100-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-baseband-acc100-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-baseband-acc100-22/jammy 21.11-1build1 amd64
 
-librte-baseband-fpga-5gnr-fec22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-baseband-fpga-5gnr-fec22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-baseband-fpga-5gnr-fec22/jammy 21.11-1build1 amd64
 
-librte-baseband-fpga-lte-fec22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-baseband-fpga-lte-fec22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-baseband-fpga-lte-fec22/jammy 21.11-1build1 amd64
 
-librte-baseband-la12xx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-baseband-la12xx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-baseband-la12xx22/jammy 21.11-1build1 amd64
 
-librte-baseband-null22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-baseband-null22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-baseband-null22/jammy 21.11-1build1 amd64
 
-librte-baseband-turbo-sw22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-baseband-turbo-sw22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-baseband-turbo-sw22/jammy 21.11-1build1 amd64
 
-librte-bbdev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bbdev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bbdev22/jammy 21.11-1build1 amd64
 
-librte-bitratestats22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bitratestats22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bitratestats22/jammy 21.11-1build1 amd64
 
-librte-bpf22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bpf22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bpf22/jammy 21.11-1build1 amd64
 
-librte-bus-auxiliary22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bus-auxiliary22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bus-auxiliary22/jammy 21.11-1build1 amd64
 
-librte-bus-dpaa22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bus-dpaa22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bus-dpaa22/jammy 21.11-1build1 amd64
 
-librte-bus-fslmc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bus-fslmc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bus-fslmc22/jammy 21.11-1build1 amd64
 
-librte-bus-ifpga22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bus-ifpga22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bus-ifpga22/jammy 21.11-1build1 amd64
 
-librte-bus-pci22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bus-pci22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bus-pci22/jammy 21.11-1build1 amd64
 
-librte-bus-vdev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bus-vdev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bus-vdev22/jammy 21.11-1build1 amd64
 
-librte-bus-vmbus22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-bus-vmbus22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-bus-vmbus22/jammy 21.11-1build1 amd64
 
-librte-cfgfile22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-cfgfile22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-cfgfile22/jammy 21.11-1build1 amd64
 
-librte-cmdline22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-cmdline22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-cmdline22/jammy 21.11-1build1 amd64
 
-librte-common-cnxk22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-cnxk22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-cnxk22/jammy 21.11-1build1 amd64
 
-librte-common-cpt22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-cpt22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-cpt22/jammy 21.11-1build1 amd64
 
-librte-common-dpaax22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-dpaax22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-dpaax22/jammy 21.11-1build1 amd64
 
-librte-common-iavf22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-iavf22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-iavf22/jammy 21.11-1build1 amd64
 
-librte-common-mlx5-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-mlx5-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-mlx5-22/jammy 21.11-1build1 amd64
 
-librte-common-octeontx2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-octeontx2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-octeontx2-22/jammy 21.11-1build1 amd64
 
-librte-common-octeontx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-octeontx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-octeontx22/jammy 21.11-1build1 amd64
 
-librte-common-qat22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-qat22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-qat22/jammy 21.11-1build1 amd64
 
-librte-common-sfc-efx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-common-sfc-efx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-common-sfc-efx22/jammy 21.11-1build1 amd64
 
-librte-compress-isal22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-compress-isal22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-compress-isal22/jammy 21.11-1build1 amd64
 
-librte-compress-mlx5-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-compress-mlx5-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-compress-mlx5-22/jammy 21.11-1build1 amd64
 
-librte-compress-octeontx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-compress-octeontx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-compress-octeontx22/jammy 21.11-1build1 amd64
 
-librte-compress-zlib22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-compress-zlib22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-compress-zlib22/jammy 21.11-1build1 amd64
 
-librte-compressdev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-compressdev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-compressdev22/jammy 21.11-1build1 amd64
 
-librte-crypto-bcmfs22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-bcmfs22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-bcmfs22/jammy 21.11-1build1 amd64
 
-librte-crypto-caam-jr22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-caam-jr22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-caam-jr22/jammy 21.11-1build1 amd64
 
-librte-crypto-ccp22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-ccp22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-ccp22/jammy 21.11-1build1 amd64
 
-librte-crypto-cnxk22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-cnxk22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-cnxk22/jammy 21.11-1build1 amd64
 
-librte-crypto-dpaa-sec22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-dpaa-sec22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-dpaa-sec22/jammy 21.11-1build1 amd64
 
-librte-crypto-dpaa2-sec22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-dpaa2-sec22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-dpaa2-sec22/jammy 21.11-1build1 amd64
 
-librte-crypto-ipsec-mb22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-ipsec-mb22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-ipsec-mb22/jammy 21.11-1build1 amd64
 
-librte-crypto-mlx5-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-mlx5-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-mlx5-22/jammy 21.11-1build1 amd64
 
-librte-crypto-nitrox22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-nitrox22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-nitrox22/jammy 21.11-1build1 amd64
 
-librte-crypto-null22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-null22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-null22/jammy 21.11-1build1 amd64
 
-librte-crypto-octeontx2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-octeontx2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-octeontx2-22/jammy 21.11-1build1 amd64
 
-librte-crypto-octeontx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-octeontx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-octeontx22/jammy 21.11-1build1 amd64
 
-librte-crypto-openssl22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-openssl22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-openssl22/jammy 21.11-1build1 amd64
 
-librte-crypto-scheduler22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-scheduler22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-scheduler22/jammy 21.11-1build1 amd64
 
-librte-crypto-virtio22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-crypto-virtio22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-crypto-virtio22/jammy 21.11-1build1 amd64
 
-librte-cryptodev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-cryptodev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-cryptodev22/jammy 21.11-1build1 amd64
 
-librte-distributor22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-distributor22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-distributor22/jammy 21.11-1build1 amd64
 
-librte-dma-cnxk22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-dma-cnxk22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-dma-cnxk22/jammy 21.11-1build1 amd64
 
-librte-dma-dpaa22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-dma-dpaa22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-dma-dpaa22/jammy 21.11-1build1 amd64
 
-librte-dma-hisilicon22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-dma-hisilicon22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-dma-hisilicon22/jammy 21.11-1build1 amd64
 
-librte-dma-idxd22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-dma-idxd22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-dma-idxd22/jammy 21.11-1build1 amd64
 
-librte-dma-ioat22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-dma-ioat22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-dma-ioat22/jammy 21.11-1build1 amd64
 
-librte-dma-skeleton22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-dma-skeleton22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-dma-skeleton22/jammy 21.11-1build1 amd64
 
-librte-dmadev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-dmadev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-dmadev22/jammy 21.11-1build1 amd64
 
-librte-eal22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-eal22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-eal22/jammy 21.11-1build1 amd64
 
-librte-efd22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-efd22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-efd22/jammy 21.11-1build1 amd64
 
-librte-ethdev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-ethdev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-ethdev22/jammy 21.11-1build1 amd64
 
-librte-event-cnxk22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-cnxk22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-cnxk22/jammy 21.11-1build1 amd64
 
-librte-event-dlb2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-dlb2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-dlb2-22/jammy 21.11-1build1 amd64
 
-librte-event-dpaa2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-dpaa2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-dpaa2-22/jammy 21.11-1build1 amd64
 
-librte-event-dpaa22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-dpaa22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-dpaa22/jammy 21.11-1build1 amd64
 
-librte-event-dsw22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-dsw22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-dsw22/jammy 21.11-1build1 amd64
 
-librte-event-octeontx2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-octeontx2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-octeontx2-22/jammy 21.11-1build1 amd64
 
-librte-event-octeontx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-octeontx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-octeontx22/jammy 21.11-1build1 amd64
 
-librte-event-opdl22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-opdl22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-opdl22/jammy 21.11-1build1 amd64
 
-librte-event-skeleton22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-skeleton22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-skeleton22/jammy 21.11-1build1 amd64
 
-librte-event-sw22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-event-sw22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-event-sw22/jammy 21.11-1build1 amd64
 
-librte-eventdev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-eventdev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-eventdev22/jammy 21.11-1build1 amd64
 
-librte-fib22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-fib22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-fib22/jammy 21.11-1build1 amd64
 
-librte-flow-classify22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-flow-classify22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-flow-classify22/jammy 21.11-1build1 amd64
 
-librte-gpudev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-gpudev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-gpudev22/jammy 21.11-1build1 amd64
 
-librte-graph22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-graph22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-graph22/jammy 21.11-1build1 amd64
 
-librte-gro22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-gro22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-gro22/jammy 21.11-1build1 amd64
 
-librte-gso22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-gso22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-gso22/jammy 21.11-1build1 amd64
 
-librte-hash22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-hash22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-hash22/jammy 21.11-1build1 amd64
 
-librte-ip-frag22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-ip-frag22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-ip-frag22/jammy 21.11-1build1 amd64
 
-librte-ipsec22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-ipsec22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-ipsec22/jammy 21.11-1build1 amd64
 
-librte-jobstats22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-jobstats22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-jobstats22/jammy 21.11-1build1 amd64
 
-librte-kni22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-kni22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-kni22/jammy 21.11-1build1 amd64
 
-librte-kvargs22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-kvargs22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-kvargs22/jammy 21.11-1build1 amd64
 
-librte-latencystats22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-latencystats22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-latencystats22/jammy 21.11-1build1 amd64
 
-librte-lpm22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-lpm22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-lpm22/jammy 21.11-1build1 amd64
 
-librte-mbuf22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mbuf22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mbuf22/jammy 21.11-1build1 amd64
 
-librte-member22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-member22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-member22/jammy 21.11-1build1 amd64
 
-librte-mempool-bucket22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-bucket22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-bucket22/jammy 21.11-1build1 amd64
 
-librte-mempool-cnxk22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-cnxk22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-cnxk22/jammy 21.11-1build1 amd64
 
-librte-mempool-dpaa2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-dpaa2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-dpaa2-22/jammy 21.11-1build1 amd64
 
-librte-mempool-dpaa22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-dpaa22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-dpaa22/jammy 21.11-1build1 amd64
 
-librte-mempool-octeontx2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-octeontx2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-octeontx2-22/jammy 21.11-1build1 amd64
 
-librte-mempool-octeontx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-octeontx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-octeontx22/jammy 21.11-1build1 amd64
 
-librte-mempool-ring22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-ring22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-ring22/jammy 21.11-1build1 amd64
 
-librte-mempool-stack22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool-stack22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool-stack22/jammy 21.11-1build1 amd64
 
-librte-mempool22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-mempool22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-mempool22/jammy 21.11-1build1 amd64
 
-librte-meta-all/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-all/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-all/jammy 21.11-1build1 amd64
 
-librte-meta-allpmds/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-allpmds/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-allpmds/jammy 21.11-1build1 amd64
 
-librte-meta-baseband/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-baseband/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-baseband/jammy 21.11-1build1 amd64
 
-librte-meta-bus/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-bus/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-bus/jammy 21.11-1build1 amd64
 
-librte-meta-compress/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-compress/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-compress/jammy 21.11-1build1 amd64
 
-librte-meta-crypto/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-crypto/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-crypto/jammy 21.11-1build1 amd64
 
-librte-meta-dma/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-dma/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-dma/jammy 21.11-1build1 amd64
 
-librte-meta-event/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-event/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-event/jammy 21.11-1build1 amd64
 
-librte-meta-mempool/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-mempool/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-mempool/jammy 21.11-1build1 amd64
 
-librte-meta-net/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-net/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-net/jammy 21.11-1build1 amd64
 
-librte-meta-raw/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meta-raw/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meta-raw/jammy 21.11-1build1 amd64
 
-librte-meter22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-meter22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-meter22/jammy 21.11-1build1 amd64
 
-librte-metrics22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-metrics22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-metrics22/jammy 21.11-1build1 amd64
 
-librte-net-af-packet22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-af-packet22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-af-packet22/jammy 21.11-1build1 amd64
 
-librte-net-af-xdp22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-af-xdp22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-af-xdp22/jammy 21.11-1build1 amd64
 
-librte-net-ark22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ark22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ark22/jammy 21.11-1build1 amd64
 
-librte-net-atlantic22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-atlantic22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-atlantic22/jammy 21.11-1build1 amd64
 
-librte-net-avp22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-avp22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-avp22/jammy 21.11-1build1 amd64
 
-librte-net-axgbe22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-axgbe22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-axgbe22/jammy 21.11-1build1 amd64
 
-librte-net-bnx2x22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-bnx2x22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-bnx2x22/jammy 21.11-1build1 amd64
 
-librte-net-bnxt22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-bnxt22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-bnxt22/jammy 21.11-1build1 amd64
 
-librte-net-bond22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-bond22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-bond22/jammy 21.11-1build1 amd64
 
-librte-net-cnxk22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-cnxk22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-cnxk22/jammy 21.11-1build1 amd64
 
-librte-net-cxgbe22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-cxgbe22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-cxgbe22/jammy 21.11-1build1 amd64
 
-librte-net-dpaa2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-dpaa2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-dpaa2-22/jammy 21.11-1build1 amd64
 
-librte-net-dpaa22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-dpaa22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-dpaa22/jammy 21.11-1build1 amd64
 
-librte-net-e1000-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-e1000-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-e1000-22/jammy 21.11-1build1 amd64
 
-librte-net-ena22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ena22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ena22/jammy 21.11-1build1 amd64
 
-librte-net-enetc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-enetc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-enetc22/jammy 21.11-1build1 amd64
 
-librte-net-enetfec22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-enetfec22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-enetfec22/jammy 21.11-1build1 amd64
 
-librte-net-enic22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-enic22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-enic22/jammy 21.11-1build1 amd64
 
-librte-net-failsafe22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-failsafe22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-failsafe22/jammy 21.11-1build1 amd64
 
-librte-net-fm10k22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-fm10k22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-fm10k22/jammy 21.11-1build1 amd64
 
-librte-net-hinic22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-hinic22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-hinic22/jammy 21.11-1build1 amd64
 
-librte-net-hns3-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-hns3-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-hns3-22/jammy 21.11-1build1 amd64
 
-librte-net-i40e22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-i40e22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-i40e22/jammy 21.11-1build1 amd64
 
-librte-net-iavf22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-iavf22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-iavf22/jammy 21.11-1build1 amd64
 
-librte-net-ice22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ice22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ice22/jammy 21.11-1build1 amd64
 
-librte-net-igc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-igc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-igc22/jammy 21.11-1build1 amd64
 
-librte-net-ionic22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ionic22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ionic22/jammy 21.11-1build1 amd64
 
-librte-net-ipn3ke22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ipn3ke22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ipn3ke22/jammy 21.11-1build1 amd64
 
-librte-net-ixgbe22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ixgbe22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ixgbe22/jammy 21.11-1build1 amd64
 
-librte-net-kni22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-kni22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-kni22/jammy 21.11-1build1 amd64
 
-librte-net-liquidio22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-liquidio22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-liquidio22/jammy 21.11-1build1 amd64
 
-librte-net-memif22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-memif22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-memif22/jammy 21.11-1build1 amd64
 
-librte-net-mlx4-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-mlx4-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-mlx4-22/jammy 21.11-1build1 amd64
 
-librte-net-mlx5-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-mlx5-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-mlx5-22/jammy 21.11-1build1 amd64
 
-librte-net-netvsc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-netvsc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-netvsc22/jammy 21.11-1build1 amd64
 
-librte-net-nfp22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-nfp22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-nfp22/jammy 21.11-1build1 amd64
 
-librte-net-ngbe22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ngbe22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ngbe22/jammy 21.11-1build1 amd64
 
-librte-net-null22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-null22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-null22/jammy 21.11-1build1 amd64
 
-librte-net-octeontx-ep22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-octeontx-ep22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-octeontx-ep22/jammy 21.11-1build1 amd64
 
-librte-net-octeontx2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-octeontx2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-octeontx2-22/jammy 21.11-1build1 amd64
 
-librte-net-octeontx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-octeontx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-octeontx22/jammy 21.11-1build1 amd64
 
-librte-net-pcap22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-pcap22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-pcap22/jammy 21.11-1build1 amd64
 
-librte-net-pfe22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-pfe22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-pfe22/jammy 21.11-1build1 amd64
 
-librte-net-qede22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-qede22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-qede22/jammy 21.11-1build1 amd64
 
-librte-net-ring22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-ring22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-ring22/jammy 21.11-1build1 amd64
 
-librte-net-sfc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-sfc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-sfc22/jammy 21.11-1build1 amd64
 
-librte-net-softnic22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-softnic22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-softnic22/jammy 21.11-1build1 amd64
 
-librte-net-tap22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-tap22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-tap22/jammy 21.11-1build1 amd64
 
-librte-net-thunderx22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-thunderx22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-thunderx22/jammy 21.11-1build1 amd64
 
-librte-net-txgbe22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-txgbe22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-txgbe22/jammy 21.11-1build1 amd64
 
-librte-net-vdev-netvsc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-vdev-netvsc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-vdev-netvsc22/jammy 21.11-1build1 amd64
 
-librte-net-vhost22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-vhost22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-vhost22/jammy 21.11-1build1 amd64
 
-librte-net-virtio22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-virtio22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-virtio22/jammy 21.11-1build1 amd64
 
-librte-net-vmxnet3-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net-vmxnet3-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net-vmxnet3-22/jammy 21.11-1build1 amd64
 
-librte-net22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-net22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-net22/jammy 21.11-1build1 amd64
 
-librte-node22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-node22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-node22/jammy 21.11-1build1 amd64
 
-librte-pcapng22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-pcapng22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-pcapng22/jammy 21.11-1build1 amd64
 
-librte-pci22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-pci22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-pci22/jammy 21.11-1build1 amd64
 
-librte-pdump22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-pdump22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-pdump22/jammy 21.11-1build1 amd64
 
-librte-pipeline22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-pipeline22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-pipeline22/jammy 21.11-1build1 amd64
 
-librte-port22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-port22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-port22/jammy 21.11-1build1 amd64
 
-librte-power22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-power22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-power22/jammy 21.11-1build1 amd64
 
-librte-raw-cnxk-bphy22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-raw-cnxk-bphy22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-raw-cnxk-bphy22/jammy 21.11-1build1 amd64
 
-librte-raw-dpaa2-cmdif22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-raw-dpaa2-cmdif22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-raw-dpaa2-cmdif22/jammy 21.11-1build1 amd64
 
-librte-raw-dpaa2-qdma22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-raw-dpaa2-qdma22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-raw-dpaa2-qdma22/jammy 21.11-1build1 amd64
 
-librte-raw-ifpga22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-raw-ifpga22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-raw-ifpga22/jammy 21.11-1build1 amd64
 
-librte-raw-ntb22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-raw-ntb22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-raw-ntb22/jammy 21.11-1build1 amd64
 
-librte-raw-skeleton22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-raw-skeleton22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-raw-skeleton22/jammy 21.11-1build1 amd64
 
-librte-rawdev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-rawdev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-rawdev22/jammy 21.11-1build1 amd64
 
-librte-rcu22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-rcu22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-rcu22/jammy 21.11-1build1 amd64
 
-librte-regex-mlx5-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-regex-mlx5-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-regex-mlx5-22/jammy 21.11-1build1 amd64
 
-librte-regex-octeontx2-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-regex-octeontx2-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-regex-octeontx2-22/jammy 21.11-1build1 amd64
 
-librte-regexdev22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-regexdev22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-regexdev22/jammy 21.11-1build1 amd64
 
-librte-reorder22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-reorder22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-reorder22/jammy 21.11-1build1 amd64
 
-librte-rib22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-rib22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-rib22/jammy 21.11-1build1 amd64
 
-librte-ring22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-ring22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-ring22/jammy 21.11-1build1 amd64
 
-librte-sched22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-sched22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-sched22/jammy 21.11-1build1 amd64
 
-librte-security22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-security22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-security22/jammy 21.11-1build1 amd64
 
-librte-stack22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-stack22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-stack22/jammy 21.11-1build1 amd64
 
-librte-table22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-table22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-table22/jammy 21.11-1build1 amd64
 
-librte-telemetry22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-telemetry22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-telemetry22/jammy 21.11-1build1 amd64
 
-librte-timer22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-timer22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-timer22/jammy 21.11-1build1 amd64
 
-librte-vdpa-ifc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-vdpa-ifc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-vdpa-ifc22/jammy 21.11-1build1 amd64
 
-librte-vdpa-mlx5-22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-vdpa-mlx5-22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-vdpa-mlx5-22/jammy 21.11-1build1 amd64
 
-librte-vdpa-sfc22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-vdpa-sfc22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-vdpa-sfc22/jammy 21.11-1build1 amd64
 
-librte-vhost22/jammy-updates,jammy-security 21.11.1-0ubuntu0.3 amd64
+librte-vhost22/jammy-updates,jammy-security 21.11.2-0ubuntu0.22.04.1 amd64
 librte-vhost22/jammy 21.11-1build1 amd64
 
 librtf-document-perl/jammy,jammy 0.64-11.1 all
@@ -83357,6 +83377,7 @@ librust-base32-dev/jammy 0.4.0-1 amd64
 
 librust-base64-dev/jammy 0.13.0-1 amd64
 
+librust-bat-dev/jammy-updates,jammy-security 0.19.0-1ubuntu0.1 amd64
 librust-bat-dev/jammy 0.19.0-1 amd64
 
 librust-bigdecimal+serde-dev/jammy 0.3.0-1 amd64
@@ -83369,22 +83390,31 @@ librust-binary-heap-plus-dev/jammy 0.4.1-1 amd64
 
 librust-bincode-dev/jammy 1.3.3-1 amd64
 
+librust-bindgen+clap-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+clap-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen+default-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+default-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen+env-logger-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+env-logger-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen+log-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+log-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen+logging-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+logging-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen+runtime-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+runtime-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen+static-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+static-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen+which-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen+which-dev/jammy 0.59.1-2 amd64
 
+librust-bindgen-dev/jammy-updates,jammy-security 0.59.1-2ubuntu0.1 amd64
 librust-bindgen-dev/jammy 0.59.1-2 amd64
 
 librust-bit-set+nightly-dev/jammy 0.5.0-1 amd64
@@ -83805,6 +83835,7 @@ librust-dbus-dev/jammy 0.9.0-3 amd64
 
 librust-dbus-tree-dev/jammy 0.9.2-1 amd64
 
+librust-debcargo-dev/jammy-updates,jammy-security 2.5.0-2ubuntu0.1 amd64
 librust-debcargo-dev/jammy 2.5.0-2 amd64
 
 librust-deflate-dev/jammy 0.7.20-2 amd64
@@ -84489,6 +84520,7 @@ librust-kvm-bindings-dev/jammy 0.1.1-1 amd64
 
 librust-kvm-ioctls-dev/jammy 0.2.0-1 amd64
 
+librust-lalrpop-dev/jammy-updates,jammy-security 0.17.2-8ubuntu0.1 amd64
 librust-lalrpop-dev/jammy 0.17.2-8 amd64
 
 librust-lalrpop-util-dev/jammy 0.17.2-1 amd64
@@ -84663,6 +84695,7 @@ librust-malloc-buf-dev/jammy 1.0.0-2 amd64
 
 librust-maplit-dev/jammy 1.0.1-1 amd64
 
+librust-markdown-dev/jammy-updates,jammy-security 0.3.0-1ubuntu0.22.04.1 amd64
 librust-markdown-dev/jammy 0.3.0-1 amd64
 
 librust-markup5ever-dev/jammy 0.10.0-1 amd64
@@ -85053,6 +85086,7 @@ librust-plain-dev/jammy 0.2.3-1 amd64
 
 librust-platform-info-dev/jammy 0.2.0-1 amd64
 
+librust-pleaser-dev/jammy-updates,jammy-security 0.5.1-4ubuntu0.22.04.1 amd64
 librust-pleaser-dev/jammy 0.5.1-4 amd64
 
 librust-pledge-dev/jammy 0.3.1-1 amd64
@@ -85245,30 +85279,43 @@ librust-ref-cast-impl-dev/jammy 1.0.3-1 amd64
 
 librust-reference-counted-singleton-dev/jammy 0.1.1-1 amd64
 
+librust-regex+aho-corasick-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+aho-corasick-dev/jammy 1.5.4-1 amd64
 
+librust-regex+default-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+default-dev/jammy 1.5.4-1 amd64
 
+librust-regex+memchr-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+memchr-dev/jammy 1.5.4-1 amd64
 
+librust-regex+perf-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+perf-dev/jammy 1.5.4-1 amd64
 
+librust-regex+perf-literal-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+perf-literal-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-age-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-age-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-bool-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-bool-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-case-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-case-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-gencat-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-gencat-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-perl-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-perl-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-script-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-script-dev/jammy 1.5.4-1 amd64
 
+librust-regex+unicode-segment-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex+unicode-segment-dev/jammy 1.5.4-1 amd64
 
 librust-regex-automata+regex-syntax-dev/jammy 0.1.8-2 amd64
@@ -85279,6 +85326,7 @@ librust-regex-automata+utf8-ranges-dev/jammy 0.1.8-2 amd64
 
 librust-regex-automata-dev/jammy 0.1.8-2 amd64
 
+librust-regex-dev/jammy-updates,jammy-security 1.5.4-1ubuntu0.1 amd64
 librust-regex-dev/jammy 1.5.4-1 amd64
 
 librust-regex-syntax+unicode-dev/jammy 0.6.25-1 amd64
@@ -85431,6 +85479,7 @@ librust-sequoia-openpgp+nettle-dev/jammy 1.7.0-6 amd64
 
 librust-sequoia-openpgp-dev/jammy 1.7.0-6 amd64
 
+librust-sequoia-sop-dev/jammy-updates,jammy-security 0.26.1-2ubuntu0.22.04.1 amd64
 librust-sequoia-sop-dev/jammy 0.26.1-2 amd64
 
 librust-serde+derive-dev/jammy 1.0.130-2 amd64
@@ -85553,6 +85602,7 @@ librust-smallvec-dev/jammy 1.7.0-1 amd64
 
 librust-snafu-derive-dev/jammy 0.6.10-1 amd64
 
+librust-sniffglue-dev/jammy-updates,jammy-security 0.14.0-2ubuntu0.1 amd64
 librust-sniffglue-dev/jammy 0.14.0-2 amd64
 
 librust-socket2-dev/jammy 0.4.2-1 amd64
@@ -94093,31 +94143,32 @@ libwebkit2-sharp-4.0-cil-dev/jammy 2.10.9+git20160917-1.1 amd64
 
 libwebkit2-sharp-4.0-cil/jammy 2.10.9+git20160917-1.1 amd64
 
-libwebkit2gtk-4.0-37/jammy-updates,jammy-security,now 2.36.6-0ubuntu0.22.04.1 amd64 [installed,automatic]
+libwebkit2gtk-4.0-37/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64 [upgradable from: 2.36.6-0ubuntu0.22.04.1]
+libwebkit2gtk-4.0-37/now 2.36.6-0ubuntu0.22.04.1 amd64 [installed,upgradable to: 2.36.7-0ubuntu0.22.04.1]
 libwebkit2gtk-4.0-37/jammy 2.36.0-2ubuntu1 amd64
 
-libwebkit2gtk-4.0-37/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.0-37/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libwebkit2gtk-4.0-37/jammy 2.36.0-2ubuntu1 i386
 
-libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 libwebkit2gtk-4.0-dev/jammy 2.36.0-2ubuntu1 amd64
 
-libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libwebkit2gtk-4.0-dev/jammy 2.36.0-2ubuntu1 i386
 
-libwebkit2gtk-4.0-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.36.6-0ubuntu0.22.04.1 all
+libwebkit2gtk-4.0-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.36.7-0ubuntu0.22.04.1 all
 libwebkit2gtk-4.0-doc/jammy,jammy 2.36.0-2ubuntu1 all
 
-libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 libwebkit2gtk-4.1-0/jammy 2.36.0-2ubuntu1 amd64
 
-libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libwebkit2gtk-4.1-0/jammy 2.36.0-2ubuntu1 i386
 
-libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 libwebkit2gtk-4.1-dev/jammy 2.36.0-2ubuntu1 amd64
 
-libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 libwebkit2gtk-4.1-dev/jammy 2.36.0-2ubuntu1 i386
 
 libwebm-dev/jammy 1.0.0.28-1 amd64
@@ -97648,6 +97699,8 @@ linux-buildinfo-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19 amd6
 
 linux-buildinfo-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
 
+linux-buildinfo-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-buildinfo-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-buildinfo-5.15.0-1016-kvm/jammy-updates,jammy-security 5.15.0-1016.19 amd64
@@ -97763,6 +97816,8 @@ linux-cloud-tools-5.15.0-1013-azure/jammy-updates 5.15.0-1013.16 amd64
 linux-cloud-tools-5.15.0-1013-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
 
 linux-cloud-tools-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17 amd64
+
+linux-cloud-tools-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-cloud-tools-5.15.0-1017-azure/jammy-updates,jammy-security 5.15.0-1017.20 amd64
 
@@ -98177,6 +98232,8 @@ linux-headers-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19 amd64
 
 linux-headers-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
 
+linux-headers-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-headers-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-headers-5.15.0-1016-kvm/jammy-updates,jammy-security 5.15.0-1016.19 amd64
@@ -98328,7 +98385,7 @@ linux-headers-gkeop/jammy-updates,jammy-security 5.15.0.1002.4 amd64
 linux-headers-ibm/jammy-updates,jammy-security 5.15.0.1013.12 amd64
 linux-headers-ibm/jammy 5.15.0.1002.3 amd64
 
-linux-headers-intel-iotg/jammy-updates,jammy-security 5.15.0.1013.13 amd64
+linux-headers-intel-iotg/jammy-updates,jammy-security 5.15.0.1015.16 amd64
 linux-headers-intel-iotg/jammy 5.15.0.1004.6 amd64
 
 linux-headers-kvm/jammy-updates,jammy-security 5.15.0.1017.15 amd64
@@ -98573,6 +98630,8 @@ linux-image-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19 amd64
 
 linux-image-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
 
+linux-image-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-image-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-image-5.15.0-1016-kvm/jammy-updates,jammy-security 5.15.0-1016.19 amd64
@@ -98717,7 +98776,7 @@ linux-image-gkeop/jammy-updates,jammy-security 5.15.0.1002.4 amd64
 linux-image-ibm/jammy-updates,jammy-security 5.15.0.1013.12 amd64
 linux-image-ibm/jammy 5.15.0.1002.3 amd64
 
-linux-image-intel-iotg/jammy-updates,jammy-security 5.15.0.1013.13 amd64
+linux-image-intel-iotg/jammy-updates,jammy-security 5.15.0.1015.16 amd64
 linux-image-intel-iotg/jammy 5.15.0.1004.6 amd64
 
 linux-image-kvm/jammy-updates,jammy-security 5.15.0.1017.15 amd64
@@ -98878,6 +98937,8 @@ linux-image-unsigned-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19
 
 linux-image-unsigned-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
 
+linux-image-unsigned-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-image-unsigned-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-image-unsigned-5.15.0-1016-kvm/jammy-updates,jammy-security 5.15.0-1016.19 amd64
@@ -98989,6 +99050,9 @@ linux-intel-iotg-cloud-tools-5.15.0-1010/jammy-updates,jammy-security 5.15.0-101
 
 linux-intel-iotg-cloud-tools-5.15.0-1013/jammy-updates,jammy-security 5.15.0-1013.17 amd64
 
+linux-intel-iotg-cloud-tools-5.15.0-1015/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
+linux-intel-iotg-cloud-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1015.20 all
 linux-intel-iotg-cloud-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1013.17 all
 linux-intel-iotg-cloud-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1010.14 all
 linux-intel-iotg-cloud-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1008.11 all
@@ -99002,6 +99066,8 @@ linux-intel-iotg-headers-5.15.0-1010/jammy-updates,jammy-updates,jammy-security,
 
 linux-intel-iotg-headers-5.15.0-1013/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1013.17 all
 
+linux-intel-iotg-headers-5.15.0-1015/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1015.20 all
+
 linux-intel-iotg-tools-5.15.0-1004/jammy 5.15.0-1004.6 amd64
 
 linux-intel-iotg-tools-5.15.0-1008/jammy-updates,jammy-security 5.15.0-1008.11 amd64
@@ -99010,17 +99076,21 @@ linux-intel-iotg-tools-5.15.0-1010/jammy-updates,jammy-security 5.15.0-1010.14 a
 
 linux-intel-iotg-tools-5.15.0-1013/jammy-updates,jammy-security 5.15.0-1013.17 amd64
 
+linux-intel-iotg-tools-5.15.0-1015/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
+linux-intel-iotg-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1015.20 all
 linux-intel-iotg-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1013.17 all
 linux-intel-iotg-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1010.14 all
 linux-intel-iotg-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1008.11 all
 linux-intel-iotg-tools-common/jammy,jammy 5.15.0-1004.6 all
 
+linux-intel-iotg-tools-host/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1015.20 all
 linux-intel-iotg-tools-host/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1013.17 all
 linux-intel-iotg-tools-host/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1010.14 all
 linux-intel-iotg-tools-host/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1008.11 all
 linux-intel-iotg-tools-host/jammy,jammy 5.15.0-1004.6 all
 
-linux-intel-iotg/jammy-updates,jammy-security 5.15.0.1013.13 amd64
+linux-intel-iotg/jammy-updates,jammy-security 5.15.0.1015.16 amd64
 linux-intel-iotg/jammy 5.15.0.1004.6 amd64
 
 linux-kvm-headers-5.15.0-1004/jammy,jammy 5.15.0-1004.4 all
@@ -99376,6 +99446,8 @@ linux-modules-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19 amd64
 
 linux-modules-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
 
+linux-modules-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-modules-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-modules-5.15.0-1016-kvm/jammy-updates,jammy-security 5.15.0-1016.19 amd64
@@ -99574,6 +99646,8 @@ linux-modules-extra-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19 
 
 linux-modules-extra-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
 
+linux-modules-extra-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-modules-extra-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-modules-extra-5.15.0-1016-oracle/jammy-updates,jammy-security 5.15.0-1016.20 amd64
@@ -99648,6 +99722,8 @@ linux-modules-iwlwifi-5.15.0-1013-intel-iotg/jammy-updates,jammy-security 5.15.0
 linux-modules-iwlwifi-5.15.0-1014-gke/jammy-updates,jammy-security 5.15.0-1014.17 amd64
 
 linux-modules-iwlwifi-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
+
+linux-modules-iwlwifi-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-iwlwifi-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -99768,6 +99844,8 @@ linux-modules-nvidia-390-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1
 
 linux-modules-nvidia-390-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
 
+linux-modules-nvidia-390-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-modules-nvidia-390-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-modules-nvidia-390-5.15.0-1016-oracle/jammy-updates,jammy-security 5.15.0-1016.20 amd64
@@ -99874,7 +99952,7 @@ linux-modules-nvidia-390-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-390-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-390-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-390-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-390-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-390-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-390-lowlatency-hwe-20.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -99975,6 +100053,8 @@ linux-modules-nvidia-418-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-modules-nvidia-418-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-418-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-418-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-418-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -100082,7 +100162,7 @@ linux-modules-nvidia-418-server-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-418-server-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-418-server-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-418-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-418-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-418-server-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-418-server-lowlatency-hwe-20.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100129,7 +100209,7 @@ linux-modules-nvidia-435-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-435-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-435-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-435-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-435-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-435-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-435-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100170,7 +100250,7 @@ linux-modules-nvidia-440-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-440-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-440-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-440-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-440-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-440-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-440-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100211,7 +100291,7 @@ linux-modules-nvidia-440-server-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-440-server-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-440-server-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-440-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-440-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-440-server-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-440-server-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100252,7 +100332,7 @@ linux-modules-nvidia-450-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-450-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-450-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-450-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-450-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-450-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-450-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100347,6 +100427,8 @@ linux-modules-nvidia-450-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-modules-nvidia-450-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-450-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-450-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-450-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -100454,7 +100536,7 @@ linux-modules-nvidia-450-server-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-450-server-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-450-server-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-450-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-450-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-450-server-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-450-server-lowlatency-hwe-20.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100501,7 +100583,7 @@ linux-modules-nvidia-455-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-455-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-455-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-455-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-455-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-455-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-455-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100542,7 +100624,7 @@ linux-modules-nvidia-460-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-460-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-460-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-460-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-460-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-460-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-460-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100583,7 +100665,7 @@ linux-modules-nvidia-460-server-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-460-server-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-460-server-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-460-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-460-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-460-server-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-460-server-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100624,7 +100706,7 @@ linux-modules-nvidia-465-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-465-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-465-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-465-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-465-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-465-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-465-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100719,6 +100801,8 @@ linux-modules-nvidia-470-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 amd64
 linux-modules-nvidia-470-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-470-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-470-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-470-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -100826,7 +100910,7 @@ linux-modules-nvidia-470-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-470-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-470-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-470-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-470-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-470-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-470-lowlatency-hwe-20.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -100930,6 +101014,8 @@ linux-modules-nvidia-470-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-modules-nvidia-470-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-470-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-470-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-470-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -101037,7 +101123,7 @@ linux-modules-nvidia-470-server-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-470-server-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-470-server-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-470-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-470-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-470-server-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-470-server-lowlatency-hwe-20.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -101084,7 +101170,7 @@ linux-modules-nvidia-495-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-495-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-495-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-495-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-495-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-495-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-495-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -101179,6 +101265,8 @@ linux-modules-nvidia-510-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 amd64
 linux-modules-nvidia-510-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-510-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-510-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-510-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -101286,7 +101374,7 @@ linux-modules-nvidia-510-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-510-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-510-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-510-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-510-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-510-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-510-lowlatency-hwe-20.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -101390,6 +101478,8 @@ linux-modules-nvidia-510-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-modules-nvidia-510-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-510-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-510-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-510-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -101497,7 +101587,7 @@ linux-modules-nvidia-510-server-generic-hwe-22.04/jammy 5.15.0-25.25 amd64
 linux-modules-nvidia-510-server-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 linux-modules-nvidia-510-server-generic/jammy 5.15.0-25.25 amd64
 
-linux-modules-nvidia-510-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-510-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 linux-modules-nvidia-510-server-intel-iotg/jammy 5.15.0-1004.6 amd64
 
 linux-modules-nvidia-510-server-lowlatency-hwe-20.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
@@ -101547,6 +101637,8 @@ linux-modules-nvidia-515-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 amd64
 linux-modules-nvidia-515-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-515-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-515-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-515-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -101604,7 +101696,7 @@ linux-modules-nvidia-515-generic-hwe-22.04/jammy-updates,jammy-security 5.15.0-4
 
 linux-modules-nvidia-515-generic/jammy-updates,jammy-security,now 5.15.0-47.51 amd64 [installed]
 
-linux-modules-nvidia-515-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-515-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-515-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
 
@@ -101641,6 +101733,8 @@ linux-modules-nvidia-515-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-modules-nvidia-515-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-modules-nvidia-515-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-modules-nvidia-515-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-515-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -101698,7 +101792,7 @@ linux-modules-nvidia-515-server-generic-hwe-22.04/jammy-updates,jammy-security 5
 
 linux-modules-nvidia-515-server-generic/jammy-updates,jammy-security 5.15.0-47.51 amd64
 
-linux-modules-nvidia-515-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1013.17 amd64
+linux-modules-nvidia-515-server-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-modules-nvidia-515-server-lowlatency-hwe-22.04-edge/jammy-updates,jammy-security 5.15.0-47.53 amd64
 
@@ -101800,6 +101894,8 @@ linux-objects-nvidia-390-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 amd64
 linux-objects-nvidia-390-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-objects-nvidia-390-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-objects-nvidia-390-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-objects-nvidia-390-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -101956,6 +102052,8 @@ linux-objects-nvidia-418-server-5.15.0-1014-azure/jammy-updates,jammy-security 5
 
 linux-objects-nvidia-418-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
 
+linux-objects-nvidia-418-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-objects-nvidia-418-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-objects-nvidia-418-server-5.15.0-1016-oracle/jammy-updates,jammy-security 5.15.0-1016.20 amd64
@@ -102110,6 +102208,8 @@ linux-objects-nvidia-450-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-objects-nvidia-450-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-objects-nvidia-450-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-objects-nvidia-450-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-objects-nvidia-450-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -102266,6 +102366,8 @@ linux-objects-nvidia-470-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1
 
 linux-objects-nvidia-470-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
 
+linux-objects-nvidia-470-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-objects-nvidia-470-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-objects-nvidia-470-5.15.0-1016-oracle/jammy-updates,jammy-security 5.15.0-1016.20 amd64
@@ -102420,6 +102522,8 @@ linux-objects-nvidia-470-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-objects-nvidia-470-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-objects-nvidia-470-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-objects-nvidia-470-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-objects-nvidia-470-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -102576,6 +102680,8 @@ linux-objects-nvidia-510-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1
 
 linux-objects-nvidia-510-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
 
+linux-objects-nvidia-510-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-objects-nvidia-510-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-objects-nvidia-510-5.15.0-1016-oracle/jammy-updates,jammy-security 5.15.0-1016.20 amd64
@@ -102731,6 +102837,8 @@ linux-objects-nvidia-510-server-5.15.0-1014-azure/jammy-updates,jammy-security 5
 
 linux-objects-nvidia-510-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
 
+linux-objects-nvidia-510-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-objects-nvidia-510-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-objects-nvidia-510-server-5.15.0-1016-oracle/jammy-updates,jammy-security 5.15.0-1016.20 amd64
@@ -102835,6 +102943,8 @@ linux-objects-nvidia-515-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1
 
 linux-objects-nvidia-515-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
 
+linux-objects-nvidia-515-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-objects-nvidia-515-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-objects-nvidia-515-5.15.0-1016-oracle/jammy-updates,jammy-security 5.15.0-1016.20 amd64
@@ -102900,6 +103010,8 @@ linux-objects-nvidia-515-server-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 a
 linux-objects-nvidia-515-server-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-objects-nvidia-515-server-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-objects-nvidia-515-server-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-objects-nvidia-515-server-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -103135,6 +103247,8 @@ linux-signatures-nvidia-5.15.0-1014-aws/jammy-updates 5.15.0-1014.18+1 amd64
 linux-signatures-nvidia-5.15.0-1014-azure/jammy-updates,jammy-security 5.15.0-1014.17+2 amd64
 
 linux-signatures-nvidia-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19+2 amd64
+
+linux-signatures-nvidia-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
 
 linux-signatures-nvidia-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
@@ -103372,6 +103486,8 @@ linux-tools-5.15.0-1015-aws/jammy-updates,jammy-security 5.15.0-1015.19 amd64
 
 linux-tools-5.15.0-1015-gke/jammy-updates,jammy-security 5.15.0-1015.18 amd64
 
+linux-tools-5.15.0-1015-intel-iotg/jammy-updates,jammy-security 5.15.0-1015.20 amd64
+
 linux-tools-5.15.0-1016-gcp/jammy-updates,jammy-security 5.15.0-1016.21 amd64
 
 linux-tools-5.15.0-1016-kvm/jammy-updates,jammy-security 5.15.0-1016.19 amd64
@@ -103549,7 +103665,7 @@ linux-tools-host/jammy,jammy 5.15.0-25.25 all
 linux-tools-ibm/jammy-updates,jammy-security 5.15.0.1013.12 amd64
 linux-tools-ibm/jammy 5.15.0.1002.3 amd64
 
-linux-tools-intel-iotg/jammy-updates,jammy-security 5.15.0.1013.13 amd64
+linux-tools-intel-iotg/jammy-updates,jammy-security 5.15.0.1015.16 amd64
 linux-tools-intel-iotg/jammy 5.15.0.1004.6 amd64
 
 linux-tools-kvm/jammy-updates,jammy-security 5.15.0.1017.15 amd64
@@ -108758,7 +108874,7 @@ netsend/jammy 0.0~svnr250-1.4 amd64
 
 netsniff-ng/jammy 0.6.8-2build1 amd64
 
-netstandard-targeting-pack-2.1/jammy-updates 6.0.108-0ubuntu1~22.04.1 amd64
+netstandard-targeting-pack-2.1/jammy-updates,jammy-security 6.0.109-0ubuntu1~22.04.1 amd64
 
 netstat-nat/jammy 1.4.10-3build1 amd64
 
@@ -118270,6 +118386,7 @@ playmidi/jammy 2.4debian-12 amd64
 
 playonlinux/jammy,jammy 4.3.4-2 all
 
+pleaser/jammy-updates,jammy-security 0.5.1-4ubuntu0.22.04.1 amd64
 pleaser/jammy 0.5.1-4 amd64
 
 plee-the-bear-data/jammy,jammy 0.6.0-7build4 all
@@ -118622,8 +118739,8 @@ poppassd/jammy 1.8.5-6 amd64
 
 poppler-data/jammy,jammy,now 0.4.11-1 all [installed,automatic]
 
-poppler-utils/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 amd64 [upgradable from: 22.02.0-2]
-poppler-utils/jammy,now 22.02.0-2 amd64 [installed,upgradable to: 22.02.0-2ubuntu0.1]
+poppler-utils/jammy-updates,jammy-security,now 22.02.0-2ubuntu0.1 amd64 [installed,automatic]
+poppler-utils/jammy 22.02.0-2 amd64
 
 poppler-utils/jammy-updates,jammy-security 22.02.0-2ubuntu0.1 i386
 poppler-utils/jammy 22.02.0-2 i386
@@ -135254,6 +135371,7 @@ ripe-atlas-tools-doc/jammy,jammy 2.3.0-2.1 all
 
 ripe-atlas-tools/jammy,jammy 2.3.0-2.1 all
 
+ripgrep/jammy-updates,jammy-security 13.0.0-2ubuntu0.1 amd64
 ripgrep/jammy 13.0.0-2 amd64
 
 ripit/jammy,jammy 4.0.0~rc20161009-1 all
@@ -138813,6 +138931,7 @@ rust-gdb/jammy,jammy 1.58.1+dfsg1~ubuntu1-0ubuntu2 all
 rust-lldb/jammy-updates,jammy-updates,jammy-security,jammy-security 1.59.0+dfsg1-1~ubuntu2~22.04.1 all
 rust-lldb/jammy,jammy 1.58.1+dfsg1~ubuntu1-0ubuntu2 all
 
+rust-markdown/jammy-updates,jammy-security 0.3.0-1ubuntu0.22.04.1 amd64
 rust-markdown/jammy 0.3.0-1 amd64
 
 rust-src/jammy-updates,jammy-updates,jammy-security,jammy-security 1.59.0+dfsg1-1~ubuntu2~22.04.1 all
@@ -138826,6 +138945,7 @@ rustc/jammy 1.58.1+dfsg1~ubuntu1-0ubuntu2 i386
 
 rustdoc-stripper/jammy 0.1.12-1 amd64
 
+rustfilt/jammy-updates,jammy-security 0.2.1-1ubuntu0.22.04.1 amd64
 rustfilt/jammy 0.2.1-1 amd64
 
 rustfmt/jammy-updates,jammy-security 1.59.0+dfsg1-1~ubuntu2~22.04.1 amd64
@@ -140861,6 +140981,7 @@ sngrep/jammy 1.4.10-1 amd64
 
 snibbetracker/jammy 1.1.1-2 amd64
 
+sniffglue/jammy-updates,jammy-security 0.14.0-2ubuntu0.1 amd64
 sniffglue/jammy 0.14.0-2 amd64
 
 sniffit/jammy 0.5-2 amd64
@@ -141444,8 +141565,10 @@ spyder3/jammy,jammy 4.2.1+dfsg1-3 all
 
 spyder/jammy,jammy 4.2.1+dfsg1-3 all
 
+sq-keyring-linter/jammy-updates,jammy-security 0.5.0-1ubuntu0.22.04.1 amd64
 sq-keyring-linter/jammy 0.5.0-1 amd64
 
+sq/jammy-updates,jammy-security 0.25.0-3ubuntu0.22.04.1 amd64
 sq/jammy 0.25.0-3 amd64
 
 sqitch/jammy,jammy 1.2.1-1 all
@@ -141490,6 +141613,7 @@ sqlobject-admin/jammy,jammy 3.9.1+dfsg-1 all
 
 sqlsmith/jammy 1.3-1build1 amd64
 
+sqop/jammy-updates,jammy-security 0.26.1-2ubuntu0.22.04.1 amd64
 sqop/jammy 0.26.1-2 amd64
 
 sqsh/jammy 2.5.16.1-2build2 amd64
@@ -146490,6 +146614,7 @@ ucarp/jammy 1.5.2-2.2 amd64
 
 ucblogo/jammy 6.2.2-2 amd64
 
+ucd-generate/jammy-updates,jammy-security 0.2.3-1ubuntu0.22.04.1 amd64
 ucd-generate/jammy 0.2.3-1build2 amd64
 
 ucf/jammy,jammy,now 3.0043 all [installed,automatic]
@@ -148633,10 +148758,10 @@ webhttrack/jammy 3.49.2-1.1build1 amd64
 
 webissues/jammy 1.1.5-8 amd64
 
-webkit2gtk-driver/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 amd64
+webkit2gtk-driver/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 amd64
 webkit2gtk-driver/jammy 2.36.0-2ubuntu1 amd64
 
-webkit2gtk-driver/jammy-updates,jammy-security 2.36.6-0ubuntu0.22.04.1 i386
+webkit2gtk-driver/jammy-updates,jammy-security 2.36.7-0ubuntu0.22.04.1 i386
 webkit2gtk-driver/jammy 2.36.0-2ubuntu1 i386
 
 weblint-perl/jammy,jammy 2.32+dfsg-1.1 all
