@@ -15,7 +15,7 @@ sys.ps1 = f'\033[0;1m[\033[0;36;1mp\033[0;33;1my\033[0;1m] \033[0;36;1m->\033[0m
 sys.ps2 = '\033[0;33;1m... \033[0m'
 
 # clears the screen
-def clear(): os.system("clear")
+def clear(): system("clear")
 
 # allows us to exit with "exit"
 exit.__class__.__repr__ = sys.exit
@@ -84,3 +84,23 @@ def toDeg(theta:float):
 
 def toRad(theta:float):
     return (theta * math.pi) / 180
+
+def truthTable(vars:int, table:list[bool]=[]): # prints a truth table 
+    # starts by creating 2 tables. one is 1 true and the other is 1 false.
+    # then recursively creates 2 more tables from the previous tables in child processes.
+    #
+    # Example:
+    #   vars = 5
+    #   >>>5-1 = 4
+    #   >>> [T], [F]
+    #       >>> 4-1 = 3
+    #       >>> [T, T], [F, F], [T,F], [F,t]
+    #           >>>...
+    if vars == 0:
+        print(table)
+    else:
+        vars -=1
+        truthTable(vars, [False] + table)
+        truthTable(vars, [True] + table)
+
+
