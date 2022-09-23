@@ -58,14 +58,15 @@ I use KDE's autostart to run these.
 All packages are listed in text files
 ### Install
 cd into the packages directory first.
-Only pacman's packages are automated. sorry
+atm, flatpak packages cannot be automated. snaps, pacman and apt can be tho 
 ```sh
 cd packages
 ```
 
-#### Pacman
 ```sh
- for x in $(pacman.txt); do pacman -S $x; done
+ for x in $(cat pacman.txt); do pacman -S $x; done
+ for y in $(cat apt.txt); do apt install $y; done
+ for z in $(cat snap.txt); do snap install $z; done
 ```
 
 ## installing for yourself
