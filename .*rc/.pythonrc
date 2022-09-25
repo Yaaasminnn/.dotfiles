@@ -78,12 +78,11 @@ def exp(num:float, E:int):
 # e
 
 # radian/degree conversions
-# does not work in some scenarios.
 def toDeg(theta:float):
-    return (theta * 180) / math.pi
+    return (theta * 180) / pi
 
 def toRad(theta:float):
-    return (theta * math.pi) / 180
+    return (theta * pi) / 180
 
 def truthTable(vars:int, table:list[bool]=[]): # prints a truth table 
     # starts by creating 2 tables. one is 1 true and the other is 1 false.
