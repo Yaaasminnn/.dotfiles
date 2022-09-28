@@ -111,7 +111,10 @@ alias BetterDiscord="BetterDiscord --no-sandbox" # runs the better discord insta
 alias kwin_fix="kwin_x11 --replace 1> /dev/null 2> /dev/null &" # occasionally kwin fucks. this fixes that
 
 # lol
-alias sus="echo ඞ"
+alias sus="while : 
+do
+  echo -n 'ඞ' 
+done"
 
 # history
 HISTTIMEFORMAT="%y-%M-%D %t " # shows datetime when using "history"
