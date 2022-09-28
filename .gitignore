@@ -6,3 +6,6 @@ vim/.vim/.netrwhist
 
 BD/plugins/
 BD/themes/
+
+
+*.pyc

@@ -1,4 +1,37 @@
+# Edit this file to introduce tasks to be run by cron.
+#
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+#
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').
+#
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+#
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+#
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+#
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+# m h  dom mon dow   command
 30 00 * * * sh /home/loona/programming/scripts/journal_cleaner.sh
-00 00 * * * pacman -Q > /home/loona/.dotfiles/packages/pacman.txt
-00 00 * * * snap list > /home/loona/.dotfiles/packages/snap.txt
-00 00 * * * flatpak list --app /home/loona/.dotfiles/packages/flatpak.txt
+00 00 * * * flatpak list --app > /home/loona/.dotfiles/packages/flatpak.txt
+
+# apt packages.
+# takes the raw apt packages and outputs it to a seperate file
+00 00 * * * apt list -a > /home/loona/.dotfiles/packages/apt_raw.txt
+01 00 * * * python3 /home/loona/programming/scripts/parse_pkgs/apt.py /home/loona/.dotfiles/packages/apt_raw.txt /home/loona/.dotfiles/packages/apt.txt
+
+# snap packages
+00 00 * * * snap list > /home/loona/.dotfiles/packages/snap_raw.txt
+01 00 * * * python3 /home/loona/programming/scripts/parse_pkgs/snap.py /home/loona/.dotfiles/packages/snap_raw.txt /home/loona/.dotfiles/packages/snap.txt
+
+# only do pacman on arch
+#00 00 * * * pacman -Q > /home/loona/.dotfiles/packages/pacman.txt
