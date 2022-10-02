@@ -10,9 +10,9 @@ from random import *
 
 # TERMINAL UTILITIES AND SETTINGS
 
-# interactive prompt: [py] -> 
-sys.ps1 = f'\033[0;1m[\033[0;36;1mp\033[0;33;1my\033[0;1m] \033[0;36;1m->\033[0m '
-sys.ps2 = '\033[0;33;1m... \033[0m'
+# interactive prompt
+sys.ps1 = f'\033[0;36;1mp\033[0;33;1my\033[0;36;1m>\033[0m ' # py>
+sys.ps2 = '\033[0;33;1m... \033[0m' # ...
 
 # clears the screen
 def clear(): system("clear")

@@ -100,7 +100,7 @@ alias cc="char_count"
 # shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
 export PYTHONSTARTUP="/home/$user/.pythonrc" # loads python rc
-alias lua-shell="lua-shell -f rc.lua"
+alias lua="lua -i .luarc"
 
 
 

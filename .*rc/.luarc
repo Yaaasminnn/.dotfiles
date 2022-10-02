@@ -1,0 +1,6 @@
+#!/bin/lua5.4
+-- lua rc
+
+
+
+_PROMPT="\27[35;1mlua> \27[0m" -- lua prompt
