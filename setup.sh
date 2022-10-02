@@ -14,6 +14,9 @@
 #   vim plugins install? need fonts
 #   install all the packages from the respective package managers
 
+source BD/plugins/install_plugins.sh
+source BD/themes/install_themes.sh 
+
 # gets the username
 user=$(whoami)
 
@@ -90,31 +93,11 @@ sudo chmod +x /usr/bin/BetterDiscord
 mkdir -p /home/$user/.config/BetterDiscord/ # makes the BetterDiscord directory
 mkdir /home/$user/.dotfiles/BD/plugins /home/$user/.dotfiles/BD/themes # creates the plugins and themes directories
 
-# gets all plugins/themes
-declare -a plugins=("https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Plugins/ImageUtilities/ImageUtilities.plugin.js" 
-  "https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Plugins/GameActivityToggle/GameActivityToggle.plugin.js" 
-  "https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Plugins/SplitLargeMessages/SplitLargeMessages.plugin.js"
-  "https://raw.githubusercontent.com/QWERTxD/BetterDiscordPlugins/main/UserVolumeBooster/UserVolumeBooster.plugin.js"
-  "https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/InvisibleTyping/InvisibleTyping.plugin.js"
-  "https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/PlatformIndicators/APlatformIndicators.plugin.js"
-  "https://raw.githubusercontent.com/l0c4lh057/BetterDiscordStuff/master/Plugins/TypingIndicator/TypingIndicator.plugin.js"
-  "https://raw.githubusercontent.com/rauenzi/BetterDiscordAddons/master/Plugins/DoNotTrack/DoNotTrack.plugin.js"
-  "https://raw.githubusercontent.com/QWERTxD/BetterDiscordPlugins/main/CallTimeCounter/CallTimeCounter.plugin.js"
-  "https://raw.githubusercontent.com/vizality-community/better-code-blocks/main/index.js"
-)
-declare -a themes=("https://raw.githubusercontent.com/DiscordStyles/DarkMatter/main/DarkMatter.theme.css" "https://raw.githubusercontent.com/mr-miner1/Better-Badges/main/theme.scss")
-cd /home/$user/.dotfiles/BD/plugins/
-for plugin in "${plugins[@]}"
-do
-  wget --content-disposition --trust-server-names $plugin
-done
-mv index.js better-code-blocks.js # need to fix this somehow. discord does not pickup the code blocks plugin
+# installs all plugins/themes
+install_themes;
+install_plugins;
 
-cd /home/$user/.dotfiles/BD/themes/
-for theme in "${themes[@]}"
-do
-  wget --content-disposition --trust-server-names $theme
-done
+
 
 # links them 
 ln -s /home/$user/.dotfiles/BD/themes /home/$user/.config/BetterDiscord/themes

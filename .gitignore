@@ -4,8 +4,9 @@ vim/.vim/autoload/*
 .directory
 vim/.vim/.netrwhist
 
-BD/plugins/
-BD/themes/
+BD/plugins/*.js*
+BD/plugins/*.*css*
+BD/themes/*.*css*
 
 
 *.pyc
