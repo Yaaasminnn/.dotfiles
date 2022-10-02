@@ -2,5 +2,5 @@
 -- lua rc
 
 
-
-_PROMPT="\27[35;1mlua> \27[0m" -- lua prompt
+-- lua prompt
+_PROMPT="\27[35;1mlua> \27[0m" -- lua>
