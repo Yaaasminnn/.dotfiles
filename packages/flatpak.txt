@@ -1,3 +1,5 @@
+Discord	com.discordapp.Discord	0.0.20	stable	user
+Flatseal	com.github.tchx84.Flatseal	1.8.0	stable	user
 Airshipper	net.veloren.airshipper	0.7.0	stable	user
 Citra	org.citra_emu.citra	nightly-1772	stable	user
 yuzu	org.yuzu_emu.yuzu		stable	user

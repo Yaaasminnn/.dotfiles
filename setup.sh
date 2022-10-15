@@ -77,8 +77,7 @@ ln -s /home/$user/.dotfiles/scripts/ /home/$user/programming
 
 # discord
 
-wget https://discord.com/api/download?platform=linux&format=deb # downloads discord
-sudo dpkg -i download\?platform\=linux # installs discord
+flatpak install flathub com.discordapp.Discord # the flatpak package always auto-updates. no manual update necessary
 
 # install and setup fuse
 sudo modprobe -v fuse
@@ -102,8 +101,8 @@ install_plugins;
 
 
 # links them 
-ln -s /home/$user/.dotfiles/BD/themes /home/$user/.config/BetterDiscord/themes
-ln -s /home/$user/.dotfiles/BD/plugins /home/$user/.config/BetterDiscord/plugins
+ln -s /home/$user/.dotfiles/BD/themes /home/$user/.var/app/com.discordapp.Discord/config/BetterDiscord/
+ln -s /home/$user/.dotfiles/BD/plugins /home/$user/.var/app/com.discordapp.Discord/config/BetterDiscord/
 
 
 # ssh

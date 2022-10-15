@@ -8,5 +8,7 @@ BD/plugins/*.js*
 BD/plugins/*.*css*
 BD/themes/*.*css*
 
+.idea
+
 
 *.pyc

@@ -109,7 +109,7 @@ alias lua="lua -i .rc.lua"
 
 # miscellaneous
 alias BetterDiscord="BetterDiscord --no-sandbox" # runs the better discord installer
-alias kwin_fix="kwin_x11 --replace 1> /dev/null 2> /dev/null &" # occasionally kwin fucks. this fixes that
+alias kwin_fix="kwin_x11 --replace &" # occasionally kwin fucks. this fixes that
 
 # lol
 alias sus="while : 
@@ -136,4 +136,5 @@ export PATH="/home/$user/.local/bin:$PATH"
 export PATH="/home/$user/programming/scripts:$PATH"
 export PATH="/home/$user/programming/scripts/calculators:$PATH"
 export PATH="/home/$user/programming/scripts/speedtest:$PATH"
+export PATH="$HOME/programming/scripts/BD:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
