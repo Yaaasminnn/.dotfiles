@@ -58,7 +58,7 @@ rm /home/$user/.git-prompt.sh
 rm /home/$user/.pythonrc
 rm /home/$user/.replrc
 rm /home/$user/.vimrc
-rm /home/$USER/.luarc
+rm /home/$USER/.rc.lua
 
 # makes links in ~
 ln -s /home/$user/.dotfiles/.\*rc/.bashrc /home/$user/.bashrc
