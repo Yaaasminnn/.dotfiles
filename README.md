@@ -23,7 +23,6 @@ demo:
 - .fonts/
 - .icons/
 - wallpaper
-- arch_install_script.sh
 - auto start scripts
 - calculators
 - crontab scripts
@@ -31,13 +30,13 @@ demo:
 - other helpful scripts
 
 ## todo:
-- add node and ruby rc's
-- fix up the vim stuff
-- keep track of all packages. shouldnt be too hard; just a command to list all packages and echo to a file
-- move the aesthetics stuff to the aesthetics folder
-- re-write the arch script
-- make a script that auto-does all this for me. and commits it here too???
-- cant add .vim/ directory because the plugins all have .git/ directories. will see if these are necessary
+- add icons/fonts etc
+  - some wget script so the repo dosent just steal other ppls work
+- figure out flatseal
+  - so discord can access BD stuff. currently using the GUI app, need cli
+- make BD directory before install
+  - otherwise we have to manually open discord to create the BD files.
+- automate flatpak packages installation
 
 
 
