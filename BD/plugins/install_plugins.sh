@@ -18,7 +18,7 @@ install_plugins() {
   "https://raw.githubusercontent.com/Mopsgamer/BetterDiscord-codes/f80759dc559f184f5f02f02f2b9912d5e035fde5/Animations.plugin.js"
 )
 
-  cd /home/$user/.dotfiles/BD/plugins/
+  cd /home/$USER/.dotfiles/BD/plugins/
 
   # removes all existing plugins
   rm *.js* *.*css*

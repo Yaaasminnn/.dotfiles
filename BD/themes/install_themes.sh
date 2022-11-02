@@ -4,7 +4,7 @@
 install_themes() {
   declare -a themes=("https://raw.githubusercontent.com/DiscordStyles/DarkMatter/main/DarkMatter.theme.css" "https://raw.githubusercontent.com/mr-miner1/Better-Badges/main/theme.scss")
   
-  cd /home/$user/.dotfiles/BD/themes/
+  cd /home/$USER/.dotfiles/BD/themes/
 
   # removes all existing theme files
   rm *.css* *.scss*
