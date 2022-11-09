@@ -96,6 +96,9 @@ alias fix-audio="systemctl --user restart pipewire.service"
 export EDITOR="/usr/bin/vim"
 alias lc="line_count"
 alias cc="char_count"
+alias lampp-start="sudo /opt/lampp/lampp start"
+alias lampp-restart="sudo /opt/lampp/lampp restart"
+alias lampp-stop="sudo /opt/lampp/lampp stop"
 
 # shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
