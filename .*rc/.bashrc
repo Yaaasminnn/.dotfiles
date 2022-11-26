@@ -106,6 +106,8 @@ export PYTHONSTARTUP="/home/$user/.pythonrc" # loads python rc
 alias lua="lua -i .rc.lua"
 export DENO_INSTALL="/home/loona/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+export BUN_INSTALL="$HOME/.bun"
+  export PATH="$BUN_INSTALL/bin:$PATH"
 
 
 
