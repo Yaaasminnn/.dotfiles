@@ -2,7 +2,7 @@
 
 require 'irb/completion'
 
-puts "irb version: #{`echo $(irb -v)`}"
+puts "#{`echo $(irb -v)`}"
 
 IRB.conf[:SAVE_HISTORY] = 1000 # stores the last 1000 commands
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb_history"

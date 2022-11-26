@@ -1,0 +1,21 @@
+#!/bin/python3
+
+import argparse
+
+
+def bypass(text):
+    bypassed= ""
+    char = "᠎"
+    for c in text:
+        bypassed += c+char
+    return bypassed 
+
+
+if __name__ == "__main__":
+    p = argparse.ArgumentParser()
+
+    p.add_argument('text')
+
+    args = p.parse_args()
+
+    print(bypass(args.text))

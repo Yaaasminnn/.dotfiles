@@ -104,6 +104,8 @@ alias lampp-stop="sudo /opt/lampp/lampp stop"
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
 export PYTHONSTARTUP="/home/$user/.pythonrc" # loads python rc
 alias lua="lua -i .rc.lua"
+export DENO_INSTALL="/home/loona/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 
 

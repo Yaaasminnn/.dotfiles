@@ -1,0 +1,34 @@
+#!/bin/python3
+
+"""
+places emojis inbetween words in a string.
+can technically do this with any other string.
+"""
+
+from string import whitespace
+import argparse
+
+def emojify(text:str, emoji:str):
+    emojified=""
+    for c in range(len(text)):
+        emojified += text[c]
+        if text[c] in whitespace:
+            emojified += emoji+" "
+    if text[len(text)-1] not in whitespace:
+        emojified+= " " + emoji
+
+    return emojified
+
+if __name__ == '__main__':
+    p = argparse.ArgumentParser(description="insert emojis between all words in a string")
+    p.add_argument('text',
+                   help='the text you want to emojify')
+    p.add_argument('emoji',
+                   help='the emoji you want to insert. can also be text')
+
+    args = p.parse_args()
+
+    print("\033[0;32;1memojifying...\033[0m")
+
+    print(emojify(args.text, args.emoji))
+

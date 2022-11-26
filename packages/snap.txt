@@ -3,7 +3,7 @@ bare
 bitwarden
 core18
 core20
-firefox
+core22
 gnome-3-28-1804
 gnome-3-38-2004
 gtk-common-themes
@@ -11,3 +11,4 @@ hunspell-dictionaries-1-7-2004
 lunatask
 snap-store
 snapd
+stellarium-daily
