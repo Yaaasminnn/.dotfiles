@@ -1,5 +1,7 @@
 " Set compatibility to Vim only.
-"autocmd VimEnter * NERDTree | wincmd p
+set splitbelow
+set number
+
 "let g:minimap_auto_start = 1
 set nocompatible
 set nolist
@@ -31,6 +33,7 @@ map <F3> :NERDTreeToggle<CR>
 "map <F4> :MinimapToggle<CR>
 vmap <F5> "+yy<CR>
 map <F6> :source $MYVIMRC<CR>
+nmap <F7> :terminal ++rows=15 ++kill=kill<CR>
 set pastetoggle=<F2>
 :set mouse=a
 set foldmethod=manual
@@ -118,3 +121,12 @@ set wildmenu
 set wildmode=list:longest 
 
 "start
+" windows
+autocmd VimEnter * NERDTree | wincmd p
+let g:NERDTreeWinSize=21
+
+
+map <F9> :vertical resize -5
+map <F12> :vertical resize +5
+map <F10> :res -5
+map <F11> :res +5

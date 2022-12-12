@@ -145,3 +145,7 @@ export PATH="/home/$user/programming/scripts/calculators:$PATH"
 export PATH="/home/$user/programming/scripts/speedtest:$PATH"
 export PATH="$HOME/programming/scripts/BD:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
+
+
+# dart sdk
+export PATH="$PATH:/usr/lib/dart/bin"
