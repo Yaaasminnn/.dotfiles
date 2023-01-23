@@ -1,0 +1,56 @@
+#!/usr/bin/python3 
+from math import sqrt
+
+"""
+given a sample of numbers, find the sample mean, sample standard_deviation
+
+standard deviation:
+    V = values
+    Vx = the xth value of V 
+    n = len(V)
+    m = mean
+    var = variance = sum(Vx - m) / n
+    std_dev = sqrt(var)
+"""
+
+def mean(v : list[float], n : int) -> float:
+    avg = 0
+    for i in v:
+        avg += i
+    #print(avg/n)
+    return avg/ n
+
+def std_dev(v : list[float], n : int, m : float) -> float:
+    var = 0
+    sum = 0
+    for i in v:
+        sum += (i - m)**2
+    var = sum / n
+    #print(sqrt(var))
+    return sqrt(var)
+
+if __name__ == '__main__':
+    V : list[float] = []
+    n, m = 0, 0
+    
+    # get values 
+    print("\033[0;34;1mStandard Deviation Calculator.\n "+
+          "Calculates and returns sample mean and standard deviation.\n"+
+          "Enter a sample of numbers below.\nEnter 'done' to calculate. \033[0m")
+    while True:
+        new_val = input("Enter a number: \033[0m")
+        
+        if new_val == "done":
+            # sets the values and then breaks 
+            n = len(V)
+            m = mean(V, n)
+            break
+
+        V.append(float(new_val))
+
+    # calculate
+    d = std_dev(V, n, m)
+    print(f"\033[0;32;1mStandard Deviation: \033[0;33;1m{d}"+
+          f"\n\033[0;32;1mMean: \033[0;33;1m{m}\n"+
+          f"\033[0;32;1mSample Size: \033[0;33;1m{n}\n"+
+          f"\033[0;32;1mSample: \033[0;33;1m{V}\033[1m")
