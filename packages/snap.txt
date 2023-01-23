@@ -5,6 +5,7 @@ core
 core18
 core20
 core22
+flutter
 gnome-3-28-1804
 gnome-3-38-2004
 gtk-common-themes
@@ -14,3 +15,4 @@ mediainfo
 snap-store
 snapd
 stellarium-daily
+teamworkchat

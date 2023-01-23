@@ -1,6 +1,7 @@
 " Set compatibility to Vim only.
 set splitbelow
-set number
+set number 
+set relativenumber
 
 "let g:minimap_auto_start = 1
 set nocompatible
@@ -64,10 +65,6 @@ set showcmd
 
 " Highlight matching pairs of brackets. Use the '%' character to jump between them.
 set matchpairs+=<:>
-
-" Show line numbers
-set number
-set norelativenumber
 
 " Set status line display
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime('%c')}

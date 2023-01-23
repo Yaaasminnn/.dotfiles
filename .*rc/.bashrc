@@ -149,3 +149,4 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 # dart sdk
 export PATH="$PATH:/usr/lib/dart/bin"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
