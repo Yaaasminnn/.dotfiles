@@ -57,6 +57,9 @@ if __name__ == '__main__':
 
         else: V.append(float(new_val))
 
+        if new_val != "done":
+            print(f"\033[0;33;1m{V}\033[0m")
+
     # calculate
     d = std_dev(V, n, m)
     print(f"\033[0;32;1mStandard Deviation: \033[0;33;1m{d}"+

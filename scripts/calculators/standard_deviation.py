@@ -11,6 +11,8 @@ standard deviation:
     m = mean
     var = variance = sum(Vx - m) / n
     std_dev = sqrt(var)
+
+todo: user can say 'pop' to remove the last index
 """
 
 def mean(v : list[float], n : int) -> float:
@@ -34,9 +36,9 @@ if __name__ == '__main__':
     n, m = 0, 0
     
     # get values 
-    print("\033[0;34;1mStandard Deviation Calculator.\n "+
+    print("\033[0;34;1mStandard Deviation Calculator.\n"+
           "Calculates and returns sample mean and standard deviation.\n"+
-          "Enter a sample of numbers below.\nEnter 'done' to calculate. \033[0m")
+          "Enter a sample of numbers below.\nEnter 'done' to calculate. \nEnter 'pop' to remove the last number.\nEnter 'clear' to clear all values\033[0m")
     while True:
         new_val = input("Enter a number: \033[0m")
         
@@ -45,8 +47,18 @@ if __name__ == '__main__':
             n = len(V)
             m = mean(V, n)
             break
+        elif new_val == 'pop':
+            rm = V[len(V)-1]
+            V.pop(len(V)-1)
+            print(f"\033[0;31;1mRemoved last number: \033[0;33;1m{rm}\033[0m")
+        elif new_val == "clear":
+            V = []
+            print("\033[0;31;1mCleared all values.\033[0m")
 
-        V.append(float(new_val))
+        else: V.append(float(new_val))
+
+        if new_val != "done":
+            print(f"\033[0;33;1m{V}\033[0m")
 
     # calculate
     d = std_dev(V, n, m)
