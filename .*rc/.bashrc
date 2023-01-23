@@ -100,6 +100,9 @@ alias lampp-start="sudo /opt/lampp/lampp start"
 alias lampp-restart="sudo /opt/lampp/lampp restart"
 alias lampp-stop="sudo /opt/lampp/lampp stop"
 
+# xilinx
+alias ise="source /opt/Xilinx/14.7/ISE_DS/settings64.sh && ise"
+
 # shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
 export PYTHONSTARTUP="/home/$user/.pythonrc" # loads python rc
