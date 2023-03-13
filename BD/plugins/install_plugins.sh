@@ -16,6 +16,7 @@ install_plugins() {
   "https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/f05c66e9e41ec2eb4682dacec42d45b1bdf37086/release/0PluginLibrary.plugin.js"
   "https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/befcceb5a940432c095fcc473f7ea35d00e12a49/Library/0BDFDB.plugin.js"
   "https://raw.githubusercontent.com/Mopsgamer/BetterDiscord-codes/f80759dc559f184f5f02f02f2b9912d5e035fde5/Animations.plugin.js"
+  "https://raw.githubusercontent.com/unknown81311/BetterMediaPlayer/2f9d92a73450e131478c0ec379d41b636d32eda9/BetterMediaPlayer.plugin.js"
 )
 
   cd /home/$USER/.dotfiles/BD/plugins/

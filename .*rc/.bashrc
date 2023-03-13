@@ -106,6 +106,7 @@ alias ise="source /opt/Xilinx/14.7/ISE_DS/settings64.sh && ise"
 # shell prompts
 alias repl="echo 'Node Version: $(node --version)' ;node ~/.replrc" # starts node repl
 export PYTHONSTARTUP="/home/$user/.pythonrc" # loads python rc
+alias py="python"
 alias lua="lua -i .rc.lua"
 export DENO_INSTALL="/home/loona/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
@@ -119,7 +120,7 @@ export BUN_INSTALL="$HOME/.bun"
 
 # miscellaneous
 alias BetterDiscord="BetterDiscord --no-sandbox" # runs the better discord installer
-alias kwin_fix="kwin_x11 --replace &" # occasionally kwin fucks. this fixes that
+alias kwin_fix="kwin_x11 --replace &> /dev/null &" # occasionally kwin fucks. this fixes that
 
 # lol
 alias sus="while : 
