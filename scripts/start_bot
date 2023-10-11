@@ -1,0 +1,4 @@
+#!/bin/bash
+#cd ~/programing/rollercoaster
+source /home/loona/programming/rollercoaster/venv/bin/activate
+python3 /home/loona/programming/rollercoaster/main.py 

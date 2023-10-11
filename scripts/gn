@@ -1,4 +1,7 @@
 #!/usr/bin/bash
-echo -e "Goodnight $USER <3\nLove You!"
+if [ -z "$1" ];
+then echo -e "Goodnight $USER <3\nLove you!";
+else echo -e $1
+fi
 sleep 1
 shutdown now

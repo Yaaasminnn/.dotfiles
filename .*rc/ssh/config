@@ -1,17 +1,17 @@
 Host raspberrypi
-  Hostname 10.0.0.207
+  Hostname 192.168.0.254
   User pi
   Port 22
   IdentityFile ~/.ssh/id_rsa
 
 Host laptop
-  Hostname 10.0.0.138
+  Hostname 192.168.1.112
   User loona
   Port 22
   IdentityFile ~/.ssh/id_rsa
 
 Host desktop
-  Hostname 10.0.0.186
+  Hostname 192.168.0.13 
   user loona
   Port 22
   IdentityFile ~/.ssh/id_rsa

@@ -8,6 +8,7 @@ core22
 flutter
 gnome-3-28-1804
 gnome-3-38-2004
+gnome-42-2204
 gtk-common-themes
 hunspell-dictionaries-1-7-2004
 lunatask

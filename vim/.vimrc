@@ -35,6 +35,8 @@ map <F3> :NERDTreeToggle<CR>
 vmap <F5> "+yy<CR>
 map <F6> :source $MYVIMRC<CR>
 nmap <F7> :terminal ++rows=15 ++kill=kill<CR>
+" deletes a line 
+nmap <S-d> 0v$<Del> <CR>
 set pastetoggle=<F2>
 :set mouse=a
 set foldmethod=manual

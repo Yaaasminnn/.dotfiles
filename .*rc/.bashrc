@@ -79,7 +79,9 @@ alias cd...="cd ..;cd .."
 # general bash aliases
 #alias cat="cat -n"
 alias slep='systemctl suspend'
-alias okbye="gn"
+alias okbye="gn 'okbye'"
+alias gnmsg="gn 'oksleeptime\n[gif]\ngn bois\ngood day today\ndid stuff\nokbye'"
+alias oyasumi="gn 'Oyasumi-nasaiii $USER-chan'"
 alias kys="exit"
 alias bashtop="bpytop"
 alias reparse=". /home/$user/.bashrc"
