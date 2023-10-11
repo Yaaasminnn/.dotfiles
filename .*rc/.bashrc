@@ -77,7 +77,7 @@ alias llh="ls -ld .?*"
 alias cd...="cd ..;cd .."
 
 # general bash aliases
-alias cat="cat -n"
+#alias cat="cat -n"
 alias slep='systemctl suspend'
 alias okbye="gn"
 alias kys="exit"
