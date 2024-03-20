@@ -89,6 +89,9 @@ alias reload=". /home/$user/.bashrc"
 alias refresh="clear;cd"
 alias :q="exit"
 alias :Q="exit"
+launch(){
+  $* &> /dev/null&
+}
 
 # dev tools
 alias run="./executables/main"
